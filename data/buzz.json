@@ -1,402 +1,162 @@
 [
     {
-        "message": "Data engineering is my passion.",
-        "author": "Eve"
+        "message": "Put a little elbow grease in.",
+        "author": "Marge"
     },
     {
-        "message": "Distributed systems are fascinating.",
-        "author": "Alice"
+        "message": "Oh, Homie.",
+        "author": "Marge"
     },
     {
-        "message": "Have a great day!",
-        "author": "Charlie"
+        "message": "It’s just a phase.",
+        "author": "Marge"
     },
     {
-        "message": "Data engineering is my passion.",
-        "author": "Alice"
+        "message": "I love you, Homer.",
+        "author": "Marge"
     },
     {
-        "message": "Distributed systems are fascinating.",
-        "author": "Diana"
+        "message": "If you love something, let it go.",
+        "author": "Marge"
     },
     {
-        "message": "Buzz messages for everyone.",
-        "author": "Alice"
+        "message": "Mmm... bacon.",
+        "author": "Marge"
     },
     {
-        "message": "Hello, Kafka world!",
-        "author": "Diana"
+        "message": "D’oh!",
+        "author": "Marge"
     },
     {
-        "message": "This is a buzz message.",
-        "author": "Eve"
+        "message": "I’m not a bad guy. I’m just a guy who does bad things.",
+        "author": "Marge"
     },
     {
-        "message": "JSON makes life easier.",
-        "author": "Eve"
+        "message": "Don’t have a cow, man!",
+        "author": "Lisa"
     },
     {
-        "message": "JSON makes life easier.",
-        "author": "Alice"
+        "message": "Catch you later, dude!",
+        "author": "Lisa"
     },
     {
-        "message": "Data engineering is my passion.",
-        "author": "Diana"
+        "message": "My brain is my second best feature.",
+        "author": "Lisa"
     },
     {
-        "message": "JSON makes life easier.",
-        "author": "Diana"
-    },
-    {
-        "message": "Kafka is awesome.",
-        "author": "Charlie"
-    },
-    {
-        "message": "JSON makes life easier.",
-        "author": "Bob"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Bob"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Eve"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Eve"
-    },
-    {
-        "message": "Buzz messages for everyone.",
-        "author": "Alice"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Alice"
+        "message": "Don’t have a cow, man!",
+        "author": "Lisa"
     },
     {
         "message": "Data engineering is my passion.",
-        "author": "Diana"
+        "author": "Lisa"
     },
     {
-        "message": "I love Python!",
-        "author": "Eve"
+        "message": "Ay caramba!",
+        "author": "Bart"
     },
     {
-        "message": "JSON makes life easier.",
-        "author": "Charlie"
+        "message": "The world is my oyster... and my jewel!",
+        "author": "Lisa"
     },
     {
-        "message": "Have a great day!",
-        "author": "Bob"
+        "message": "This is the best day ever!",
+        "author": "Lisa"
     },
     {
-        "message": "Data engineering is my passion.",
-        "author": "Alice"
+        "message": "Yeah, that’s right!",
+        "author": "Moe"
     },
     {
-        "message": "Kafka is awesome.",
-        "author": "Diana"
+        "message": "I’m not a people person.",
+        "author": "Moe"
     },
     {
-        "message": "Kafka is awesome.",
-        "author": "Diana"
+        "message": "This is a disaster, a disaster!",
+        "author": "Moe"
     },
     {
-        "message": "Hello, Kafka world!",
-        "author": "Bob"
+        "message": "Get outta here, you lousy punk!",
+        "author": "Moe"
     },
     {
-        "message": "Distributed systems are fascinating.",
-        "author": "Diana"
+        "message": "You’re all a bunch of scumbags!",
+        "author": "Moe"
     },
     {
-        "message": "I love Python!",
-        "author": "Diana"
+        "message": "I’m just trying to make a living here!",
+        "author": "Moe"
     },
     {
-        "message": "Have a great day!",
-        "author": "Alice"
+        "message": "Ain't no rest for the wicked!",
+        "author": "Moe"
     },
     {
-        "message": "Hello, Kafka world!",
-        "author": "Charlie"
+        "message": "Here’s your beer, don’t drink it too fast!",
+        "author": "Moe"
     },
     {
-        "message": "JSON makes life easier.",
-        "author": "Diana"
+        "message": "If I had a nickel for every time I heard that...",
+        "author": "Barney"
     },
     {
-        "message": "I love Python!",
-        "author": "Bob"
+        "message": "Do you ever get the feeling that the world’s against you?",
+        "author": "Barney"
     },
     {
-        "message": "Have a great day!",
-        "author": "Diana"
+        "message": "This is the best beer I’ve ever had.",
+        "author": "Barney"
     },
     {
-        "message": "Hello, Kafka world!",
-        "author": "Alice"
+        "message": "You just can't keep a good man down.",
+        "author": "Barney"
     },
     {
-        "message": "JSON makes life easier.",
-        "author": "Alice"
+        "message": "I’m not an alcoholic... I’m a good drinker!",
+        "author": "Barney"
     },
     {
-        "message": "Buzz messages for everyone.",
-        "author": "Charlie"
+        "message": "Woo-hoo! Party time!",
+        "author": "Barney"
     },
     {
-        "message": "Buzz messages for everyone.",
-        "author": "Bob"
+        "message": "I’ve seen some things, man, some things!",
+        "author": "Barney"
     },
     {
-        "message": "Streaming data is fun.",
-        "author": "Diana"
+        "message": "Can I get a hell yeah?",
+        "author": "Barney"
     },
     {
-        "message": "Have a great day!",
-        "author": "Diana"
+        "message": "Hey, you gotta let me outta here, man!",
+        "author": "Otto"
     },
     {
-        "message": "I love Python!",
-        "author": "Alice"
+        "message": "School's in session!",
+        "author": "Otto"
     },
     {
-        "message": "Streaming data is fun.",
-        "author": "Charlie"
+        "message": "I’m just here to drive the bus!",
+        "author": "Otto"
     },
     {
-        "message": "Kafka is awesome.",
-        "author": "Alice"
+        "message": "Later, dudes!",
+        "author": "Otto"
     },
     {
-        "message": "Kafka is awesome.",
-        "author": "Diana"
+        "message": "When do we get lunch?",
+        "author": "Otto"
     },
     {
-        "message": "Kafka is awesome.",
-        "author": "Alice"
+        "message": "I’m the king of the road!",
+        "author": "Otto"
     },
     {
-        "message": "JSON makes life easier.",
-        "author": "Bob"
+        "message": "Rock and roll!",
+        "author": "Otto"
     },
     {
-        "message": "This is a buzz message.",
-        "author": "Bob"
-    },
-    {
-        "message": "Streaming data is fun.",
-        "author": "Diana"
-    },
-    {
-        "message": "Have a great day!",
-        "author": "Bob"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Eve"
-    },
-    {
-        "message": "Hello, Kafka world!",
-        "author": "Bob"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Alice"
-    },
-    {
-        "message": "Streaming data is fun.",
-        "author": "Eve"
-    },
-    {
-        "message": "Kafka is awesome.",
-        "author": "Alice"
-    },
-    {
-        "message": "JSON makes life easier.",
-        "author": "Bob"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Charlie"
-    },
-    {
-        "message": "Have a great day!",
-        "author": "Diana"
-    },
-    {
-        "message": "Distributed systems are fascinating.",
-        "author": "Bob"
-    },
-    {
-        "message": "Kafka is awesome.",
-        "author": "Alice"
-    },
-    {
-        "message": "Streaming data is fun.",
-        "author": "Alice"
-    },
-    {
-        "message": "Have a great day!",
-        "author": "Diana"
-    },
-    {
-        "message": "Streaming data is fun.",
-        "author": "Alice"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Diana"
-    },
-    {
-        "message": "Data engineering is my passion.",
-        "author": "Bob"
-    },
-    {
-        "message": "Have a great day!",
-        "author": "Diana"
-    },
-    {
-        "message": "Kafka is awesome.",
-        "author": "Alice"
-    },
-    {
-        "message": "Kafka is awesome.",
-        "author": "Eve"
-    },
-    {
-        "message": "Have a great day!",
-        "author": "Diana"
-    },
-    {
-        "message": "Buzz messages for everyone.",
-        "author": "Charlie"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Charlie"
-    },
-    {
-        "message": "Streaming data is fun.",
-        "author": "Alice"
-    },
-    {
-        "message": "Hello, Kafka world!",
-        "author": "Diana"
-    },
-    {
-        "message": "Kafka is awesome.",
-        "author": "Bob"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Eve"
-    },
-    {
-        "message": "JSON makes life easier.",
-        "author": "Charlie"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Charlie"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Charlie"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Diana"
-    },
-    {
-        "message": "Streaming data is fun.",
-        "author": "Diana"
-    },
-    {
-        "message": "Data engineering is my passion.",
-        "author": "Eve"
-    },
-    {
-        "message": "Buzz messages for everyone.",
-        "author": "Eve"
-    },
-    {
-        "message": "JSON makes life easier.",
-        "author": "Eve"
-    },
-    {
-        "message": "Have a great day!",
-        "author": "Alice"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Bob"
-    },
-    {
-        "message": "I love Python!",
-        "author": "Bob"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Eve"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Alice"
-    },
-    {
-        "message": "Distributed systems are fascinating.",
-        "author": "Diana"
-    },
-    {
-        "message": "Streaming data is fun.",
-        "author": "Eve"
-    },
-    {
-        "message": "Have a great day!",
-        "author": "Charlie"
-    },
-    {
-        "message": "JSON makes life easier.",
-        "author": "Eve"
-    },
-    {
-        "message": "Buzz messages for everyone.",
-        "author": "Diana"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Charlie"
-    },
-    {
-        "message": "Distributed systems are fascinating.",
-        "author": "Charlie"
-    },
-    {
-        "message": "Buzz messages for everyone.",
-        "author": "Bob"
-    },
-    {
-        "message": "This is a buzz message.",
-        "author": "Eve"
-    },
-    {
-        "message": "Data engineering is my passion.",
-        "author": "Diana"
-    },
-    {
-        "message": "Data engineering is my passion.",
-        "author": "Alice"
-    },
-    {
-        "message": "Buzz messages for everyone.",
-        "author": "Diana"
-    },
-    {
-        "message": "JSON makes life easier.",
-        "author": "Alice"
+        "message": "Whoo! Let's get this show on the road!",
+        "author": "Otto"
     }
 ]
