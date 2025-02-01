@@ -95,13 +95,13 @@ historical_facts = [
 
 def generate_messages(file_path: pathlib.Path):
     """
-    Read from a csv file and yield records one by one, continuously.
+    Read from a CSV file and yield records one by one, continuously.
 
     Args:
         file_path (pathlib.Path): Path to the CSV file.
 
     Yields:
-        str: CSV row formatted as a string.
+        dict: Message containing timestamp, temperature, and historical fact.
     """
     while True:
         try:
@@ -118,9 +118,12 @@ def generate_messages(file_path: pathlib.Path):
 
                     # Generate a timestamp and prepare the message
                     current_timestamp = datetime.utcnow().isoformat()
+                    historical_fact = random.choice(historical_facts)  # Select a random fact
+
                     message = {
                         "timestamp": current_timestamp,
                         "temperature": float(row["temperature"]),
+                        "historical_fact": historical_fact,  # Add fact to message
                     }
                     logger.debug(f"Generated message: {message}")
                     yield message
@@ -130,6 +133,7 @@ def generate_messages(file_path: pathlib.Path):
         except Exception as e:
             logger.error(f"Unexpected error in message generation: {e}")
             sys.exit(3)
+
 
 
 #####################################
