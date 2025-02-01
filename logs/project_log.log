@@ -1215,3 +1215,118 @@
 2025-01-31 18:43:31.864 | WARNING  | __main__:main:199 - Producer interrupted by user.
 2025-01-31 18:43:31.866 | INFO     | __main__:main:204 - Kafka producer closed.
 2025-01-31 18:43:31.870 | INFO     | __main__:main:206 - END producer.
+2025-01-31 18:57:13.491 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 18:57:13.500 | INFO     | __main__:main:136 - START consumer.
+2025-01-31 18:57:13.501 | INFO     | __main__:get_kafka_topic:42 - Kafka topic: smoker_csv
+2025-01-31 18:57:13.502 | INFO     | __main__:get_kafka_consumer_group_id:48 - Kafka consumer group id: smoker_group
+2025-01-31 18:57:13.503 | INFO     | __main__:get_rolling_window_size:60 - Rolling window size: 10
+2025-01-31 18:57:13.504 | INFO     | __main__:main:142 - Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-01-31 18:57:13.506 | INFO     | __main__:main:143 - Rolling window size: 10
+2025-01-31 18:57:13.509 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 18:57:13.510 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-01-31 18:57:13.910 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 18:57:13.911 | INFO     | __main__:main:152 - Polling messages from topic 'smoker_csv'...
+2025-01-31 18:57:22.092 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:34:46.358680', 'temperature': 70.4, 'historical_fact': 'The first recorded BBQ in America was in 1540.'}
+2025-01-31 18:57:22.093 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.094 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:34:46.358680", "temperature": 70.4, "historical_fact": "The first recorded BBQ in America was in 1540."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.098 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:34:51.476862', 'temperature': 70.8, 'historical_fact': 'The first BBQ restaurant in the U.S. opened in 1919.'}
+2025-01-31 18:57:22.099 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.100 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:34:51.476862", "temperature": 70.8, "historical_fact": "The first BBQ restaurant in the U.S. opened in 1919."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.105 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:34:56.509780', 'temperature': 71.2, 'historical_fact': 'Chicago had a thriving BBQ scene in the early 1900s.'}
+2025-01-31 18:57:22.107 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.107 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:34:56.509780", "temperature": 71.2, "historical_fact": "Chicago had a thriving BBQ scene in the early 1900s."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.114 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:35:01.606578', 'temperature': 71.6, 'historical_fact': "The word 'barbecue' comes from the Caribbean – The term originates from the Taíno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame."}
+2025-01-31 18:57:22.117 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.118 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:35:01.606578", "temperature": 71.6, "historical_fact": "The word 'barbecue' comes from the Caribbean \u2013 The term originates from the Ta\u00edno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.124 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:35:06.616363', 'temperature': 72.0, 'historical_fact': 'Slavery played a major role in BBQ history – Many of the pitmasters who perfected BBQ in the South were enslaved people who passed down their techniques through generations.'}
+2025-01-31 18:57:22.127 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.129 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:35:06.616363", "temperature": 72.0, "historical_fact": "Slavery played a major role in BBQ history \u2013 Many of the pitmasters who perfected BBQ in the South were enslaved people who passed down their techniques through generations."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.135 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:35:11.623859', 'temperature': 72.4, 'historical_fact': 'Hawaiian BBQ has ancient roots – The Hawaiian imu, an underground oven, has been used for centuries to slow-cook meats like pork (kalua pig), similar to Southern BBQ techniques.'}
+2025-01-31 18:57:22.139 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.140 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:35:11.623859", "temperature": 72.4, "historical_fact": "Hawaiian BBQ has ancient roots \u2013 The Hawaiian imu, an underground oven, has been used for centuries to slow-cook meats like pork (kalua pig), similar to Southern BBQ techniques."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.145 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:35:16.650444', 'temperature': 72.8, 'historical_fact': 'North Carolina BBQ has a Civil War connection – The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods.'}
+2025-01-31 18:57:22.146 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.147 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:35:16.650444", "temperature": 72.8, "historical_fact": "North Carolina BBQ has a Civil War connection \u2013 The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.152 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:35:21.656092', 'temperature': 73.2, 'historical_fact': 'South Carolina has the most diverse BBQ sauces – South Carolina is unique for having four main styles of BBQ sauce: mustard-based, vinegar-pepper, light tomato, and heavy tomato.'}
+2025-01-31 18:57:22.155 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.156 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:35:21.656092", "temperature": 73.2, "historical_fact": "South Carolina has the most diverse BBQ sauces \u2013 South Carolina is unique for having four main styles of BBQ sauce: mustard-based, vinegar-pepper, light tomato, and heavy tomato."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.162 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:21.865506', 'temperature': 70.4, 'historical_fact': "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style."}
+2025-01-31 18:57:22.165 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.166 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:21.865506", "temperature": 70.4, "historical_fact": "Kansas City BBQ was influenced by a street vendor \u2013 Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.171 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:26.874828', 'temperature': 70.8, 'historical_fact': None}
+2025-01-31 18:57:22.173 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.175 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:26.874828", "temperature": 70.8, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.181 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:31.882374', 'temperature': 71.2, 'historical_fact': None}
+2025-01-31 18:57:22.182 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.183 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:31.882374", "temperature": 71.2, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.187 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:36.885211', 'temperature': 71.6, 'historical_fact': None}
+2025-01-31 18:57:22.189 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.190 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:36.885211", "temperature": 71.6, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.195 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:41.888792', 'temperature': 72.0, 'historical_fact': None}
+2025-01-31 18:57:22.198 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.200 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:41.888792", "temperature": 72.0, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.216 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:46.892206', 'temperature': 72.4, 'historical_fact': None}
+2025-01-31 18:57:22.218 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.226 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:46.892206", "temperature": 72.4, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.241 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:51.897025', 'temperature': 72.8, 'historical_fact': None}
+2025-01-31 18:57:22.242 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.244 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:51.897025", "temperature": 72.8, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.259 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:40:56.901274', 'temperature': 73.2, 'historical_fact': None}
+2025-01-31 18:57:22.262 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.263 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:40:56.901274", "temperature": 73.2, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.281 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:41:01.903954', 'temperature': 73.6, 'historical_fact': None}
+2025-01-31 18:57:22.282 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.296 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:41:01.903954", "temperature": 73.6, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.349 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:41:06.916929', 'temperature': 74.0, 'historical_fact': None}
+2025-01-31 18:57:22.368 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.377 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:41:06.916929", "temperature": 74.0, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.384 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:41:12.100506', 'temperature': 74.4, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 18:57:22.393 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.394 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:41:12.100506", "temperature": 74.4, "historical_fact": "The oldest BBQ joint in the U.S. is still running \u2013 Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.398 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:41:17.276510', 'temperature': 74.8, 'historical_fact': None}
+2025-01-31 18:57:22.399 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.401 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:41:17.276510", "temperature": 74.8, "historical_fact": null}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.417 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:22.018488', 'temperature': 70.4, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 18:57:22.426 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.427 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:22.018488", "temperature": 70.4, "historical_fact": "The oldest BBQ joint in the U.S. is still running \u2013 Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.433 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:27.025710', 'temperature': 70.8}
+2025-01-31 18:57:22.435 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.447 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:27.025710", "temperature": 70.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.459 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:32.029114', 'temperature': 71.2}
+2025-01-31 18:57:22.462 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.463 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:32.029114", "temperature": 71.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.467 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:37.032608', 'temperature': 71.6}
+2025-01-31 18:57:22.478 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.480 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:37.032608", "temperature": 71.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.490 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:42.037328', 'temperature': 72.0}
+2025-01-31 18:57:22.495 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.497 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:42.037328", "temperature": 72.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.510 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:47.040613', 'temperature': 72.4}
+2025-01-31 18:57:22.513 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.514 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:47.040613", "temperature": 72.4}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.550 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:52.043999', 'temperature': 72.8}
+2025-01-31 18:57:22.558 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.560 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:52.043999", "temperature": 72.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.577 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:42:57.048272', 'temperature': 73.2}
+2025-01-31 18:57:22.579 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.582 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:42:57.048272", "temperature": 73.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.595 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:43:02.069778', 'temperature': 73.6}
+2025-01-31 18:57:22.597 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.600 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:43:02.069778", "temperature": 73.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.611 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:43:07.218558', 'temperature': 74.0}
+2025-01-31 18:57:22.612 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.614 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:43:07.218558", "temperature": 74.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.626 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:43:12.244792', 'temperature': 74.4, 'historical_fact': "Alabama's famous white sauce was created in 1925 – Big Bob Gibson in Decatur, Alabama, invented the tangy, mayo-based white sauce that became a staple for smoked chicken."}
+2025-01-31 18:57:22.628 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.629 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:43:12.244792", "temperature": 74.4, "historical_fact": "Alabama's famous white sauce was created in 1925 \u2013 Big Bob Gibson in Decatur, Alabama, invented the tangy, mayo-based white sauce that became a staple for smoked chicken."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.633 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:43:17.261568', 'temperature': 74.8}
+2025-01-31 18:57:22.634 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.640 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:43:17.261568", "temperature": 74.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.646 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:43:22.264950', 'temperature': 75.2}
+2025-01-31 18:57:22.648 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.649 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:43:22.264950", "temperature": 75.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:57:22.663 | INFO     | __main__:process_message:108 - Processed JSON message: {'timestamp': '2025-02-01T00:43:27.291863', 'temperature': 75.6}
+2025-01-31 18:57:22.665 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 18:57:22.666 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:43:27.291863", "temperature": 75.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 18:59:09.401 | WARNING  | __main__:main:159 - Consumer interrupted by user.
+2025-01-31 18:59:09.623 | INFO     | __main__:main:164 - Kafka consumer for topic 'smoker_csv' closed.
