@@ -1176,3 +1176,42 @@
 2025-01-31 18:41:20.089 | WARNING  | __main__:main:196 - Producer interrupted by user.
 2025-01-31 18:41:20.092 | INFO     | __main__:main:201 - Kafka producer closed.
 2025-01-31 18:41:20.093 | INFO     | __main__:main:203 - END producer.
+2025-01-31 18:42:20.817 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 18:42:20.832 | INFO     | __main__:<module>:64 - Project root: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti
+2025-01-31 18:42:20.834 | INFO     | __main__:<module>:68 - Data folder: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data
+2025-01-31 18:42:20.835 | INFO     | __main__:<module>:72 - Data file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\smoker_temps.csv
+2025-01-31 18:42:20.835 | INFO     | __main__:main:163 - START producer.
+2025-01-31 18:42:20.836 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-31 18:42:20.855 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-31 18:42:20.859 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 18:42:21.193 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'kWoS0McyQZ2PAdZ_eHZlug', 'controller_id': 1001}
+2025-01-31 18:42:21.195 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-31 18:42:21.197 | INFO     | __main__:get_message_interval:54 - Message interval: 5 seconds
+2025-01-31 18:42:21.198 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 18:42:21.198 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-31 18:42:21.311 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-31 18:42:21.312 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 18:42:21.658 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-31 18:42:21.659 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 18:42:22.011 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-31 18:42:22.013 | INFO     | __main__:main:186 - Kafka topic 'smoker_csv' is ready.
+2025-01-31 18:42:22.015 | INFO     | __main__:main:192 - Starting message production to topic 'smoker_csv'...
+2025-01-31 18:42:22.016 | INFO     | __main__:generate_messages:111 - Opening data file in read mode: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\smoker_temps.csv
+2025-01-31 18:42:22.017 | INFO     | __main__:generate_messages:113 - Reading data from file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\smoker_temps.csv
+2025-01-31 18:42:22.021 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:22.018488', 'temperature': 70.4, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 18:42:27.026 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:27.025710', 'temperature': 70.8}
+2025-01-31 18:42:32.030 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:32.029114', 'temperature': 71.2}
+2025-01-31 18:42:37.034 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:37.032608', 'temperature': 71.6}
+2025-01-31 18:42:42.038 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:42.037328', 'temperature': 72.0}
+2025-01-31 18:42:47.041 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:47.040613', 'temperature': 72.4}
+2025-01-31 18:42:52.045 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:52.043999', 'temperature': 72.8}
+2025-01-31 18:42:57.052 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:42:57.048272', 'temperature': 73.2}
+2025-01-31 18:43:02.153 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:43:02.069778', 'temperature': 73.6}
+2025-01-31 18:43:07.219 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:43:07.218558', 'temperature': 74.0}
+2025-01-31 18:43:12.255 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:43:12.244792', 'temperature': 74.4, 'historical_fact': "Alabama's famous white sauce was created in 1925 – Big Bob Gibson in Decatur, Alabama, invented the tangy, mayo-based white sauce that became a staple for smoked chicken."}
+2025-01-31 18:43:17.262 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:43:17.261568', 'temperature': 74.8}
+2025-01-31 18:43:22.266 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:43:22.264950', 'temperature': 75.2}
+2025-01-31 18:43:27.549 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T00:43:27.291863', 'temperature': 75.6}
+2025-01-31 18:43:31.864 | WARNING  | __main__:main:199 - Producer interrupted by user.
+2025-01-31 18:43:31.866 | INFO     | __main__:main:204 - Kafka producer closed.
+2025-01-31 18:43:31.870 | INFO     | __main__:main:206 - END producer.
