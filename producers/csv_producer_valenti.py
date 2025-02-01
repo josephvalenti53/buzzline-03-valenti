@@ -125,14 +125,17 @@ def generate_messages(file_path: pathlib.Path):
                     # For every 10th message, include a historical BBQ fact
                     if count % 10 == 0:
                         historical_fact = random.choice(historical_bbq_facts)
+                        message = {
+                            "timestamp": current_timestamp,
+                            "temperature": float(row["temperature"]),
+                            "historical_fact": historical_fact  # Include fact
+                        }
                     else:
-                        historical_fact = None
-
-                    message = {
-                        "timestamp": current_timestamp,
-                        "temperature": float(row["temperature"]),
-                        "historical_fact": historical_fact,  # Add fact only every 10th message
-                    }
+                        message = {
+                            "timestamp": current_timestamp,
+                            "temperature": float(row["temperature"]),
+                        }
+                    
                     logger.debug(f"Generated message: {message}")
                     yield message
 
