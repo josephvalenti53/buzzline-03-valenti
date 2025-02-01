@@ -1665,3 +1665,195 @@
 2025-01-31 20:03:42.689 | WARNING  | __main__:main:166 - Consumer interrupted by user.
 2025-01-31 20:03:42.977 | INFO     | __main__:main:171 - Kafka consumer for topic 'smoker_csv' closed.
 2025-01-31 20:03:44.090 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:03:44.064881', 'temperature': 93.6}
+2025-01-31 20:03:49.099 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:03:49.093684', 'temperature': 94.0}
+2025-01-31 20:03:54.107 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:03:54.105483', 'temperature': 94.4, 'historical_fact': 'North Carolina BBQ has a Civil War connection – The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods.'}
+2025-01-31 20:03:59.116 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:03:59.111799', 'temperature': 94.8}
+2025-01-31 20:04:04.122 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:04.120773', 'temperature': 95.2}
+2025-01-31 20:04:09.128 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:09.125570', 'temperature': 95.6}
+2025-01-31 20:04:14.172 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:14.156577', 'temperature': 96.0}
+2025-01-31 20:04:19.175 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:19.174837', 'temperature': 96.4}
+2025-01-31 20:04:24.179 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:24.178814', 'temperature': 96.8}
+2025-01-31 20:04:29.182 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:29.181820', 'temperature': 97.2}
+2025-01-31 20:04:34.186 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:34.184615', 'temperature': 97.6}
+2025-01-31 20:04:39.213 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:39.194649', 'temperature': 98.0}
+2025-01-31 20:04:44.257 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:44.244627', 'temperature': 98.4, 'historical_fact': 'BBQ competitions go way back – The first recorded BBQ competition in the U.S. took place in the early 20th century, but BBQ cook-offs gained national popularity in the 1980s with the rise of the Kansas City Barbeque Society (KCBS).'}
+2025-01-31 20:04:49.271 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:49.270915', 'temperature': 98.8}
+2025-01-31 20:04:54.278 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:54.274919', 'temperature': 99.2}
+2025-01-31 20:04:59.287 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:04:59.284918', 'temperature': 99.6}
+2025-01-31 20:05:04.291 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:04.289843', 'temperature': 100.0}
+2025-01-31 20:05:09.295 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:09.294492', 'temperature': 100.4}
+2025-01-31 20:05:14.313 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:14.302467', 'temperature': 100.8}
+2025-01-31 20:05:19.317 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:19.315869', 'temperature': 101.2}
+2025-01-31 20:05:24.323 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:24.319876', 'temperature': 101.6}
+2025-01-31 20:05:27.517 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 20:05:27.547 | INFO     | __main__:main:143 - START consumer.
+2025-01-31 20:05:27.552 | INFO     | __main__:get_kafka_topic:42 - Kafka topic: smoker_csv
+2025-01-31 20:05:27.564 | INFO     | __main__:get_kafka_consumer_group_id:48 - Kafka consumer group id: smoker_group
+2025-01-31 20:05:27.574 | INFO     | __main__:get_rolling_window_size:60 - Rolling window size: 10
+2025-01-31 20:05:27.596 | INFO     | __main__:main:149 - Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-01-31 20:05:27.601 | INFO     | __main__:main:150 - Rolling window size: 10
+2025-01-31 20:05:27.615 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 20:05:27.633 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-01-31 20:05:29.045 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 20:05:29.047 | INFO     | __main__:main:159 - Polling messages from topic 'smoker_csv'...
+2025-01-31 20:05:29.327 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:29.325899', 'temperature': 102.0}
+2025-01-31 20:05:29.503 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:03:44.064881', 'temperature': 93.6}
+2025-01-31 20:05:29.504 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.505 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:03:44.064881", "temperature": 93.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.507 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:03:49.093684', 'temperature': 94.0}
+2025-01-31 20:05:29.507 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.508 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:03:49.093684", "temperature": 94.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.512 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:03:54.105483', 'temperature': 94.4, 'historical_fact': 'North Carolina BBQ has a Civil War connection – The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods.'}
+2025-01-31 20:05:29.513 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.514 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:03:54.105483", "temperature": 94.4, "historical_fact": "North Carolina BBQ has a Civil War connection \u2013 The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.516 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:03:59.111799', 'temperature': 94.8}
+2025-01-31 20:05:29.517 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.518 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:03:59.111799", "temperature": 94.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.521 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:04.120773', 'temperature': 95.2}
+2025-01-31 20:05:29.522 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.523 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:04.120773", "temperature": 95.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.526 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:09.125570', 'temperature': 95.6}
+2025-01-31 20:05:29.528 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.530 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:09.125570", "temperature": 95.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.534 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:14.156577', 'temperature': 96.0}
+2025-01-31 20:05:29.534 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.535 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:14.156577", "temperature": 96.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.539 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:19.174837', 'temperature': 96.4}
+2025-01-31 20:05:29.540 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.541 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:19.174837", "temperature": 96.4}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.545 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:24.178814', 'temperature': 96.8}
+2025-01-31 20:05:29.548 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.549 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:24.178814", "temperature": 96.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.553 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:29.181820', 'temperature': 97.2}
+2025-01-31 20:05:29.555 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.556 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:29.181820", "temperature": 97.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.558 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:34.184615', 'temperature': 97.6}
+2025-01-31 20:05:29.559 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.560 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:34.184615", "temperature": 97.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.562 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:39.194649', 'temperature': 98.0}
+2025-01-31 20:05:29.563 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.564 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:39.194649", "temperature": 98.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.573 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:44.244627', 'temperature': 98.4, 'historical_fact': 'BBQ competitions go way back – The first recorded BBQ competition in the U.S. took place in the early 20th century, but BBQ cook-offs gained national popularity in the 1980s with the rise of the Kansas City Barbeque Society (KCBS).'}
+2025-01-31 20:05:29.576 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.577 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:44.244627", "temperature": 98.4, "historical_fact": "BBQ competitions go way back \u2013 The first recorded BBQ competition in the U.S. took place in the early 20th century, but BBQ cook-offs gained national popularity in the 1980s with the rise of the Kansas City Barbeque Society (KCBS)."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.580 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:49.270915', 'temperature': 98.8}
+2025-01-31 20:05:29.581 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.582 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:49.270915", "temperature": 98.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.595 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:54.274919', 'temperature': 99.2}
+2025-01-31 20:05:29.596 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.598 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:54.274919", "temperature": 99.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.630 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:04:59.284918', 'temperature': 99.6}
+2025-01-31 20:05:29.631 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.662 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:04:59.284918", "temperature": 99.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.776 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:04.289843', 'temperature': 100.0}
+2025-01-31 20:05:29.806 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:29.876 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:04.289843", "temperature": 100.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:29.966 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:09.294492', 'temperature': 100.4}
+2025-01-31 20:05:30.020 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:30.038 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:09.294492", "temperature": 100.4}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:30.182 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:14.302467', 'temperature': 100.8}
+2025-01-31 20:05:30.202 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:30.212 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:14.302467", "temperature": 100.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:30.249 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:19.315869', 'temperature': 101.2}
+2025-01-31 20:05:30.267 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:30.274 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:19.315869", "temperature": 101.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:30.305 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:24.319876', 'temperature': 101.6}
+2025-01-31 20:05:30.317 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:30.327 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:24.319876", "temperature": 101.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:30.350 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:29.325899', 'temperature': 102.0}
+2025-01-31 20:05:30.361 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:30.366 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:29.325899", "temperature": 102.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:34.332 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:34.330989', 'temperature': 102.4, 'historical_fact': "Barbecue was used as a political tool – In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}
+2025-01-31 20:05:34.338 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:34.330989', 'temperature': 102.4, 'historical_fact': "Barbecue was used as a political tool – In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}
+2025-01-31 20:05:34.340 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:34.340 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:34.330989", "temperature": 102.4, "historical_fact": "Barbecue was used as a political tool \u2013 In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:39.335 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:39.334964', 'temperature': 102.8}
+2025-01-31 20:05:39.342 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:39.334964', 'temperature': 102.8}
+2025-01-31 20:05:39.343 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:39.344 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:39.334964", "temperature": 102.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:44.340 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:44.338576', 'temperature': 103.2}
+2025-01-31 20:05:44.348 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:44.338576', 'temperature': 103.2}
+2025-01-31 20:05:44.350 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:44.351 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:44.338576", "temperature": 103.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:49.358 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:49.345087', 'temperature': 103.6}
+2025-01-31 20:05:49.387 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:49.345087', 'temperature': 103.6}
+2025-01-31 20:05:49.389 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:49.390 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:49.345087", "temperature": 103.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:54.362 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:54.360665', 'temperature': 104.0}
+2025-01-31 20:05:54.367 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:54.360665', 'temperature': 104.0}
+2025-01-31 20:05:54.368 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:54.369 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:54.360665", "temperature": 104.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:05:59.370 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:05:59.364561', 'temperature': 104.4}
+2025-01-31 20:05:59.376 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:05:59.364561', 'temperature': 104.4}
+2025-01-31 20:05:59.377 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:05:59.377 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:05:59.364561", "temperature": 104.4}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:04.374 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:04.373578', 'temperature': 104.8}
+2025-01-31 20:06:04.380 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:04.373578', 'temperature': 104.8}
+2025-01-31 20:06:04.381 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:04.382 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:04.373578", "temperature": 104.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:09.377 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:09.376570', 'temperature': 105.2}
+2025-01-31 20:06:09.382 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:09.376570', 'temperature': 105.2}
+2025-01-31 20:06:09.383 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:09.384 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:09.376570", "temperature": 105.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:14.425 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:14.395093', 'temperature': 105.6}
+2025-01-31 20:06:14.472 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:14.395093', 'temperature': 105.6}
+2025-01-31 20:06:14.473 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:14.474 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:14.395093", "temperature": 105.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:19.463 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:19.462156', 'temperature': 106.0}
+2025-01-31 20:06:19.468 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:19.462156', 'temperature': 106.0}
+2025-01-31 20:06:19.470 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:19.470 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:19.462156", "temperature": 106.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:24.467 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:24.464878', 'temperature': 106.4, 'historical_fact': "Barbecue was used as a political tool – In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}
+2025-01-31 20:06:24.482 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:24.464878', 'temperature': 106.4, 'historical_fact': "Barbecue was used as a political tool – In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}
+2025-01-31 20:06:24.483 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:24.484 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:24.464878", "temperature": 106.4, "historical_fact": "Barbecue was used as a political tool \u2013 In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:29.474 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:29.470363', 'temperature': 106.8}
+2025-01-31 20:06:29.487 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:29.470363', 'temperature': 106.8}
+2025-01-31 20:06:29.490 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:29.492 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:29.470363", "temperature": 106.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:34.483 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:34.477497', 'temperature': 107.2}
+2025-01-31 20:06:34.500 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:34.477497', 'temperature': 107.2}
+2025-01-31 20:06:34.502 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:34.504 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:34.477497", "temperature": 107.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:39.488 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:39.486947', 'temperature': 107.6}
+2025-01-31 20:06:39.496 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:39.486947', 'temperature': 107.6}
+2025-01-31 20:06:39.497 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:39.497 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:39.486947", "temperature": 107.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:44.493 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:44.490322', 'temperature': 108.0}
+2025-01-31 20:06:44.519 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:44.490322', 'temperature': 108.0}
+2025-01-31 20:06:44.524 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:44.526 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:44.490322", "temperature": 108.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:49.499 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:49.497099', 'temperature': 108.4}
+2025-01-31 20:06:49.505 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:49.497099', 'temperature': 108.4}
+2025-01-31 20:06:49.506 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:49.507 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:49.497099", "temperature": 108.4}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:54.501 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:54.500904', 'temperature': 108.8}
+2025-01-31 20:06:54.507 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:54.500904', 'temperature': 108.8}
+2025-01-31 20:06:54.508 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:54.508 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:54.500904", "temperature": 108.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:06:59.554 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:06:59.525699', 'temperature': 109.2}
+2025-01-31 20:06:59.658 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:06:59.525699', 'temperature': 109.2}
+2025-01-31 20:06:59.660 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:06:59.663 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:06:59.525699", "temperature": 109.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:07:04.561 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:07:04.558211', 'temperature': 109.6}
+2025-01-31 20:07:04.568 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:07:04.558211', 'temperature': 109.6}
+2025-01-31 20:07:04.570 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:07:04.571 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:07:04.558211", "temperature": 109.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:07:09.565 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:07:09.564937', 'temperature': 110.0}
+2025-01-31 20:07:09.575 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:07:09.564937', 'temperature': 110.0}
+2025-01-31 20:07:09.576 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:07:09.579 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:07:09.564937", "temperature": 110.0}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:07:14.611 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:07:14.586940', 'temperature': 110.4, 'historical_fact': "The word 'barbecue' comes from the Caribbean – The term originates from the Taíno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame."}
+2025-01-31 20:07:14.612 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:07:14.613 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:07:14.586940", "temperature": 110.4, "historical_fact": "The word 'barbecue' comes from the Caribbean \u2013 The term originates from the Ta\u00edno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame."}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:07:14.610 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:07:14.586940', 'temperature': 110.4, 'historical_fact': "The word 'barbecue' comes from the Caribbean – The term originates from the Taíno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame."}
+2025-01-31 20:07:19.654 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:07:19.652215', 'temperature': 110.8}
+2025-01-31 20:07:19.660 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:07:19.652215', 'temperature': 110.8}
+2025-01-31 20:07:19.661 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:07:19.662 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:07:19.652215", "temperature": 110.8}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:07:24.659 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:07:24.656263', 'temperature': 111.2}
+2025-01-31 20:07:24.664 | INFO     | __main__:process_message:109 - Processed JSON message: {'timestamp': '2025-02-01T02:07:24.656263', 'temperature': 111.2}
+2025-01-31 20:07:24.665 | INFO     | __main__:get_temperature_change_threshold:66 - Temperature change threshold: 5.0°F
+2025-01-31 20:07:24.666 | ERROR    | __main__:process_message:135 - Error processing message '{"timestamp": "2025-02-01T02:07:24.656263", "temperature": 111.2}': unsupported operand type(s) for -: 'float' and 'NoneType'
+2025-01-31 20:07:28.862 | WARNING  | __main__:main:166 - Consumer interrupted by user.
+2025-01-31 20:07:28.889 | INFO     | __main__:main:171 - Kafka consumer for topic 'smoker_csv' closed.
