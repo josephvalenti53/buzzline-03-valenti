@@ -2204,3 +2204,987 @@
 2025-01-31 20:29:45.599 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:45.595757', 'temperature': 120.8}
 2025-01-31 20:29:50.604 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:50.602695', 'temperature': 121.2, 'historical_fact': "Barbecue was used as a political tool – In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}
 2025-01-31 20:29:55.613 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:55.611068', 'temperature': 121.6}
+2025-01-31 20:30:00.616 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:00.615578', 'temperature': 122.0}
+2025-01-31 20:30:05.620 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:05.619066', 'temperature': 122.4}
+2025-01-31 20:30:10.624 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:10.621707', 'temperature': 122.8}
+2025-01-31 20:30:15.731 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:15.701096', 'temperature': 123.2}
+2025-01-31 20:30:20.771 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:20.761799', 'temperature': 123.6}
+2025-01-31 20:30:25.776 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:25.775071', 'temperature': 124.0}
+2025-01-31 20:30:30.784 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:30.778857', 'temperature': 124.4}
+2025-01-31 20:30:35.792 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:35.791351', 'temperature': 124.8}
+2025-01-31 20:30:40.798 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:40.796863', 'temperature': 125.2, 'historical_fact': "George Washington loved BBQ – The first U.S. president was known to host barbecues at his Mount Vernon estate. His diary even mentions attending a 'barbicue' in 1769."}
+2025-01-31 20:30:45.868 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:45.830141', 'temperature': 125.6}
+2025-01-31 20:30:50.875 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:50.870563', 'temperature': 126.0}
+2025-01-31 20:30:55.885 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:30:55.881112', 'temperature': 126.4}
+2025-01-31 20:31:00.890 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:00.888847', 'temperature': 126.8}
+2025-01-31 20:31:05.895 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:05.892430', 'temperature': 127.2}
+2025-01-31 20:31:10.898 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:10.897114', 'temperature': 127.6}
+2025-01-31 20:31:15.902 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:15.900802', 'temperature': 128.0}
+2025-01-31 20:31:20.905 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:20.904145', 'temperature': 128.4}
+2025-01-31 20:31:25.909 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:25.907752', 'temperature': 128.8}
+2025-01-31 20:31:30.927 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:30.914012', 'temperature': 129.2, 'historical_fact': "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style."}
+2025-01-31 20:31:35.937 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:35.932992', 'temperature': 129.6}
+2025-01-31 20:31:40.943 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:40.940877', 'temperature': 130.0}
+2025-01-31 20:31:45.954 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:45.950460', 'temperature': 130.4}
+2025-01-31 20:31:50.960 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:50.958363', 'temperature': 130.8}
+2025-01-31 20:31:55.965 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:31:55.964024', 'temperature': 131.2}
+2025-01-31 20:32:00.971 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:00.968020', 'temperature': 131.6}
+2025-01-31 20:32:05.974 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:05.972963', 'temperature': 132.0}
+2025-01-31 20:32:10.978 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:10.977519', 'temperature': 132.4}
+2025-01-31 20:32:15.987 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:15.980907', 'temperature': 132.8}
+2025-01-31 20:32:20.996 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:20.993382', 'temperature': 133.2, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 20:32:26.001 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:25.999950', 'temperature': 133.6}
+2025-01-31 20:32:31.007 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:31.004753', 'temperature': 134.0}
+2025-01-31 20:32:36.012 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:36.011164', 'temperature': 134.4}
+2025-01-31 20:32:41.021 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:41.018128', 'temperature': 134.8}
+2025-01-31 20:32:46.025 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:46.024918', 'temperature': 135.2}
+2025-01-31 20:32:51.029 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:51.028319', 'temperature': 135.6}
+2025-01-31 20:32:56.036 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:32:56.031410', 'temperature': 136.0}
+2025-01-31 20:33:01.039 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:01.038108', 'temperature': 136.4}
+2025-01-31 20:33:06.046 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:06.044082', 'temperature': 136.8}
+2025-01-31 20:33:11.050 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:11.049147', 'temperature': 137.2, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 20:33:16.054 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:16.053082', 'temperature': 137.6}
+2025-01-31 20:33:21.058 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:21.056488', 'temperature': 138.0}
+2025-01-31 20:33:26.061 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:26.060558', 'temperature': 138.4}
+2025-01-31 20:33:31.065 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:31.063435', 'temperature': 138.8}
+2025-01-31 20:33:36.067 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:36.066741', 'temperature': 139.2}
+2025-01-31 20:33:41.070 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:41.069562', 'temperature': 139.6}
+2025-01-31 20:33:46.072 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:46.072014', 'temperature': 140.0}
+2025-01-31 20:33:51.075 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:51.074759', 'temperature': 140.4}
+2025-01-31 20:33:56.078 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:33:56.077571', 'temperature': 140.8}
+2025-01-31 20:34:01.085 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:01.083963', 'temperature': 141.2, 'historical_fact': "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style."}
+2025-01-31 20:34:06.099 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:06.097136', 'temperature': 141.6}
+2025-01-31 20:34:11.105 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:11.101215', 'temperature': 142.0}
+2025-01-31 20:34:16.113 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:16.112049', 'temperature': 142.2}
+2025-01-31 20:34:21.117 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:21.115355', 'temperature': 142.0}
+2025-01-31 20:34:26.122 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:26.119497', 'temperature': 142.2}
+2025-01-31 20:34:31.127 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:31.125537', 'temperature': 142.0}
+2025-01-31 20:34:36.131 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:36.128908', 'temperature': 142.2}
+2025-01-31 20:34:41.136 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:41.135240', 'temperature': 142.0}
+2025-01-31 20:34:46.142 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:46.140656', 'temperature': 142.2}
+2025-01-31 20:34:51.147 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:51.145041', 'temperature': 142.0, 'historical_fact': 'North Carolina BBQ has a Civil War connection – The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods.'}
+2025-01-31 20:34:56.150 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:34:56.149804', 'temperature': 142.2}
+2025-01-31 20:35:01.154 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:01.153621', 'temperature': 142.0}
+2025-01-31 20:35:06.158 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:06.157599', 'temperature': 142.2}
+2025-01-31 20:35:11.164 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:11.160868', 'temperature': 142.0}
+2025-01-31 20:35:16.170 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:16.169234', 'temperature': 142.2}
+2025-01-31 20:35:21.188 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:21.179452', 'temperature': 142.0}
+2025-01-31 20:35:26.257 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:26.226434', 'temperature': 142.2}
+2025-01-31 20:35:31.329 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:31.320431', 'temperature': 142.0}
+2025-01-31 20:35:36.333 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:36.332452', 'temperature': 142.2}
+2025-01-31 20:35:41.353 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:41.336184', 'temperature': 142.0, 'historical_fact': 'Texas BBQ dates back to the 1800s – German and Czech immigrants brought their smoking techniques to Texas, blending them with local beef culture to create what we now call Texas BBQ.'}
+2025-01-31 20:35:46.377 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:46.375186', 'temperature': 142.2}
+2025-01-31 20:35:51.380 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:51.379417', 'temperature': 142.0}
+2025-01-31 20:35:56.390 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:35:56.387039', 'temperature': 142.2}
+2025-01-31 20:36:01.397 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:01.392265', 'temperature': 142.0}
+2025-01-31 20:36:06.402 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:06.399592', 'temperature': 142.2}
+2025-01-31 20:36:11.447 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:11.433683', 'temperature': 142.0}
+2025-01-31 20:36:16.487 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:16.472686', 'temperature': 142.2}
+2025-01-31 20:36:21.490 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:21.489499', 'temperature': 142.0}
+2025-01-31 20:36:26.542 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:26.520873', 'temperature': 142.2}
+2025-01-31 20:36:31.606 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:31.594866', 'temperature': 142.0, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 20:36:36.650 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:36.648374', 'temperature': 142.2}
+2025-01-31 20:36:41.669 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:41.664457', 'temperature': 142.0}
+2025-01-31 20:36:46.698 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:46.696528', 'temperature': 142.2}
+2025-01-31 20:36:51.704 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:51.700480', 'temperature': 142.0}
+2025-01-31 20:36:56.734 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:36:56.712408', 'temperature': 142.2}
+2025-01-31 20:37:01.744 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:01.742889', 'temperature': 142.0}
+2025-01-31 20:37:06.747 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:06.746439', 'temperature': 142.2}
+2025-01-31 20:37:11.846 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:11.797035', 'temperature': 142.0}
+2025-01-31 20:37:16.851 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:16.847834', 'temperature': 142.2}
+2025-01-31 20:37:21.856 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:21.854348', 'temperature': 142.0, 'historical_fact': 'BBQ competitions go way back – The first recorded BBQ competition in the U.S. took place in the early 20th century, but BBQ cook-offs gained national popularity in the 1980s with the rise of the Kansas City Barbeque Society (KCBS).'}
+2025-01-31 20:37:26.885 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:26.869356', 'temperature': 142.2}
+2025-01-31 20:37:31.910 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:31.909354', 'temperature': 142.0}
+2025-01-31 20:37:36.915 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:36.912972', 'temperature': 142.2}
+2025-01-31 20:37:41.984 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:41.939357', 'temperature': 142.0}
+2025-01-31 20:37:46.988 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:46.986125', 'temperature': 142.2}
+2025-01-31 20:37:51.992 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:51.991484', 'temperature': 142.0}
+2025-01-31 20:37:57.036 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:37:57.014971', 'temperature': 142.2}
+2025-01-31 20:38:02.049 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:02.047571', 'temperature': 142.0}
+2025-01-31 20:38:07.072 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:07.057884', 'temperature': 142.2}
+2025-01-31 20:38:12.152 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:12.117940', 'temperature': 142.0, 'historical_fact': 'Texas BBQ dates back to the 1800s – German and Czech immigrants brought their smoking techniques to Texas, blending them with local beef culture to create what we now call Texas BBQ.'}
+2025-01-31 20:38:17.156 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:17.155724', 'temperature': 142.2}
+2025-01-31 20:38:22.163 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:22.158214', 'temperature': 142.0}
+2025-01-31 20:38:27.203 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:27.193294', 'temperature': 142.2}
+2025-01-31 20:38:32.209 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:32.205901', 'temperature': 142.0}
+2025-01-31 20:38:37.095 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 20:38:37.104 | INFO     | __main__:main:90 - START consumer.
+2025-01-31 20:38:37.104 | INFO     | __main__:get_kafka_topic:14 - Kafka topic: buzzline_json
+2025-01-31 20:38:37.105 | INFO     | __main__:get_kafka_consumer_group_id:20 - Kafka consumer group id: buzz_group
+2025-01-31 20:38:37.106 | INFO     | __main__:main:95 - Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-01-31 20:38:37.106 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 20:38:37.107 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-01-31 20:38:37.223 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:37.217438', 'temperature': 142.2}
+2025-01-31 20:38:37.241 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 20:38:37.242 | INFO     | __main__:main:101 - Polling messages from topic 'buzzline_json'...
+2025-01-31 20:38:37.628 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Put a little elbow grease in.', 'author': 'Marge'}
+2025-01-31 20:38:37.629 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.630 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.630 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 1}
+2025-01-31 20:38:37.633 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Oh, Homie.', 'author': 'Marge'}
+2025-01-31 20:38:37.634 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.634 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.635 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 2}
+2025-01-31 20:38:37.638 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Itâ€™s just a phase.', 'author': 'Marge'}
+2025-01-31 20:38:37.640 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.641 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.643 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 3}
+2025-01-31 20:38:37.647 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'I love you, Homer.', 'author': 'Marge'}
+2025-01-31 20:38:37.648 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.649 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.650 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 4}
+2025-01-31 20:38:37.653 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If you love something, let it go.', 'author': 'Marge'}
+2025-01-31 20:38:37.654 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.656 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.659 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 5}
+2025-01-31 20:38:37.662 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Mmm... bacon.', 'author': 'Marge'}
+2025-01-31 20:38:37.664 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.665 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.666 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 6}
+2025-01-31 20:38:37.669 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Dâ€™oh!', 'author': 'Marge'}
+2025-01-31 20:38:37.670 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.674 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.676 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 7}
+2025-01-31 20:38:37.680 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a bad guy. Iâ€™m just a guy who does bad things.', 'author': 'Marge'}
+2025-01-31 20:38:37.681 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:38:37.682 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:38:37.683 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8}
+2025-01-31 20:38:37.687 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:38:37.690 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:38:37.691 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:38:37.692 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 1}
+2025-01-31 20:38:37.695 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Catch you later, dude!', 'author': 'Lisa'}
+2025-01-31 20:38:37.696 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:38:37.697 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:38:37.698 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 2}
+2025-01-31 20:38:37.701 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'My brain is my second best feature.', 'author': 'Lisa'}
+2025-01-31 20:38:37.702 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:38:37.704 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:38:37.708 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 3}
+2025-01-31 20:38:37.711 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:38:37.713 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:38:37.714 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:38:37.715 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 4}
+2025-01-31 20:38:37.719 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Lisa'}
+2025-01-31 20:38:37.722 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:38:37.724 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:38:37.725 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 5}
+2025-01-31 20:38:37.728 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Ay caramba!', 'author': 'Bart'}
+2025-01-31 20:38:37.730 | INFO     | __main__:process_message:69 - Message received from author: Bart
+2025-01-31 20:38:37.731 | INFO     | __main__:log_custom_message:51 - Bart just said their catchphrase: No phrase
+2025-01-31 20:38:37.731 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 5, 'Bart': 1}
+2025-01-31 20:38:37.739 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'The world is my oyster... and my jewel!', 'author': 'Lisa'}
+2025-01-31 20:38:37.741 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:38:37.742 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:38:37.743 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 6, 'Bart': 1}
+2025-01-31 20:38:37.745 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is the best day ever!', 'author': 'Lisa'}
+2025-01-31 20:38:37.746 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:38:37.747 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:38:37.748 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1}
+2025-01-31 20:38:37.751 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Yeah, thatâ€™s right!', 'author': 'Moe'}
+2025-01-31 20:38:37.752 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.753 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.757 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 1}
+2025-01-31 20:38:37.764 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a people person.', 'author': 'Moe'}
+2025-01-31 20:38:37.765 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.766 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.770 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 2}
+2025-01-31 20:38:37.774 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is a disaster, a disaster!', 'author': 'Moe'}
+2025-01-31 20:38:37.775 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.775 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.776 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 3}
+2025-01-31 20:38:37.779 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Get outta here, you lousy punk!', 'author': 'Moe'}
+2025-01-31 20:38:37.780 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.781 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.782 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 4}
+2025-01-31 20:38:37.791 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Youâ€™re all a bunch of scumbags!', 'author': 'Moe'}
+2025-01-31 20:38:37.792 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.793 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.794 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 5}
+2025-01-31 20:38:37.798 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m just trying to make a living here!', 'author': 'Moe'}
+2025-01-31 20:38:37.799 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.804 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.809 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 6}
+2025-01-31 20:38:37.813 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "Ain't no rest for the wicked!", 'author': 'Moe'}
+2025-01-31 20:38:37.814 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.815 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.823 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 7}
+2025-01-31 20:38:37.830 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Hereâ€™s your beer, donâ€™t drink it too fast!', 'author': 'Moe'}
+2025-01-31 20:38:37.832 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:38:37.833 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:38:37.836 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8}
+2025-01-31 20:38:37.842 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If I had a nickel for every time I heard that...', 'author': 'Barney'}
+2025-01-31 20:38:37.843 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:38:37.844 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:38:37.846 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 1}
+2025-01-31 20:38:37.851 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Do you ever get the feeling that the worldâ€™s against you?', 'author': 'Barney'}
+2025-01-31 20:38:37.852 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:38:37.854 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:38:37.857 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 2}
+2025-01-31 20:38:42.260 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:42.235397', 'temperature': 142.0}
+2025-01-31 20:38:47.274 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:47.270469', 'temperature': 142.2}
+2025-01-31 20:38:52.280 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:52.277698', 'temperature': 142.0}
+2025-01-31 20:38:57.287 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:38:57.283846', 'temperature': 142.2}
+2025-01-31 20:39:02.302 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:02.300699', 'temperature': 142.0, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 20:39:07.306 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:07.305318', 'temperature': 142.2}
+2025-01-31 20:39:12.528 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:12.447111', 'temperature': 142.0}
+2025-01-31 20:39:19.751 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:19.741271', 'temperature': 170.0}
+2025-01-31 20:39:24.758 | INFO     | __main__:generate_messages:111 - Opening data file in read mode: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\smoker_temps.csv
+2025-01-31 20:39:24.760 | INFO     | __main__:generate_messages:113 - Reading data from file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\smoker_temps.csv
+2025-01-31 20:39:24.763 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:24.762551', 'temperature': 69.4}
+2025-01-31 20:39:29.768 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:29.766141', 'temperature': 70.4}
+2025-01-31 20:39:33.929 | WARNING  | __main__:main:108 - Consumer interrupted by user.
+2025-01-31 20:39:33.969 | INFO     | __main__:main:113 - Kafka consumer for topic 'buzzline_json' closed.
+2025-01-31 20:39:33.984 | INFO     | __main__:main:115 - END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-01-31 20:39:34.771 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:34.770544', 'temperature': 70.8}
+2025-01-31 20:39:39.775 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:39.773492', 'temperature': 71.2}
+2025-01-31 20:39:42.891 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 20:39:42.925 | INFO     | __main__:<module>:65 - Project root: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti
+2025-01-31 20:39:42.948 | INFO     | __main__:<module>:69 - Data folder: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data
+2025-01-31 20:39:42.994 | INFO     | __main__:<module>:73 - Data file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\buzz.json
+2025-01-31 20:39:43.058 | INFO     | __main__:main:152 - START producer.
+2025-01-31 20:39:43.118 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-31 20:39:43.161 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-31 20:39:43.248 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 20:39:43.714 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'kWoS0McyQZ2PAdZ_eHZlug', 'controller_id': 1001}
+2025-01-31 20:39:43.721 | INFO     | __main__:get_kafka_topic:49 - Kafka topic: buzzline_json
+2025-01-31 20:39:43.724 | INFO     | __main__:get_message_interval:55 - Message interval: 1 seconds
+2025-01-31 20:39:43.725 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 20:39:43.726 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-31 20:39:43.872 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-31 20:39:43.875 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 20:39:44.257 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline_json' already exists. Clearing it out...
+2025-01-31 20:39:44.259 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 20:39:44.873 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:44.801995', 'temperature': 71.6}
+2025-01-31 20:39:45.030 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline_json': list indices must be integers or slices, not ConfigResource
+2025-01-31 20:39:45.033 | INFO     | __main__:main:175 - Kafka topic 'buzzline_json' is ready.
+2025-01-31 20:39:45.035 | INFO     | __main__:main:181 - Starting message production to topic 'buzzline_json'...
+2025-01-31 20:39:45.036 | INFO     | __main__:generate_messages:91 - Opening data file in read mode: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\buzz.json
+2025-01-31 20:39:45.037 | INFO     | __main__:generate_messages:93 - Reading data from file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\buzz.json
+2025-01-31 20:39:45.039 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 1}
+2025-01-31 20:39:45.042 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Put a little elbow grease in.', 'author': 'Marge'}
+2025-01-31 20:39:46.045 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 2}
+2025-01-31 20:39:46.047 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Oh, Homie.', 'author': 'Marge'}
+2025-01-31 20:39:47.056 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 3}
+2025-01-31 20:39:47.064 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Itâ€™s just a phase.', 'author': 'Marge'}
+2025-01-31 20:39:48.069 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 4}
+2025-01-31 20:39:48.072 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'I love you, Homer.', 'author': 'Marge'}
+2025-01-31 20:39:49.075 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 5}
+2025-01-31 20:39:49.076 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'If you love something, let it go.', 'author': 'Marge'}
+2025-01-31 20:39:49.897 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:49.896825', 'temperature': 72.0}
+2025-01-31 20:39:50.079 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 6}
+2025-01-31 20:39:50.080 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Mmm... bacon.', 'author': 'Marge'}
+2025-01-31 20:39:51.083 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 7}
+2025-01-31 20:39:51.084 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Dâ€™oh!', 'author': 'Marge'}
+2025-01-31 20:39:52.091 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8}
+2025-01-31 20:39:52.095 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not a bad guy. Iâ€™m just a guy who does bad things.', 'author': 'Marge'}
+2025-01-31 20:39:53.099 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 1}
+2025-01-31 20:39:53.100 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:39:54.102 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 2}
+2025-01-31 20:39:54.104 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Catch you later, dude!', 'author': 'Lisa'}
+2025-01-31 20:39:54.906 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:54.900051', 'temperature': 72.4, 'historical_fact': "The word 'barbecue' comes from the Caribbean – The term originates from the Taíno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame."}
+2025-01-31 20:39:55.107 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 3}
+2025-01-31 20:39:55.109 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'My brain is my second best feature.', 'author': 'Lisa'}
+2025-01-31 20:39:56.111 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 4}
+2025-01-31 20:39:56.113 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:39:57.246 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 5}
+2025-01-31 20:39:57.332 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Lisa'}
+2025-01-31 20:39:58.445 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 5, 'Bart': 1}
+2025-01-31 20:39:58.495 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Ay caramba!', 'author': 'Bart'}
+2025-01-31 20:39:59.539 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 6, 'Bart': 1}
+2025-01-31 20:39:59.540 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'The world is my oyster... and my jewel!', 'author': 'Lisa'}
+2025-01-31 20:39:59.910 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:39:59.910055', 'temperature': 72.8}
+2025-01-31 20:40:00.543 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1}
+2025-01-31 20:40:00.545 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is the best day ever!', 'author': 'Lisa'}
+2025-01-31 20:40:01.045 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 20:40:01.060 | INFO     | __main__:main:90 - START consumer.
+2025-01-31 20:40:01.061 | INFO     | __main__:get_kafka_topic:14 - Kafka topic: buzzline_json
+2025-01-31 20:40:01.063 | INFO     | __main__:get_kafka_consumer_group_id:20 - Kafka consumer group id: buzz_group
+2025-01-31 20:40:01.063 | INFO     | __main__:main:95 - Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-01-31 20:40:01.064 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 20:40:01.065 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-01-31 20:40:01.507 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 20:40:01.507 | INFO     | __main__:main:101 - Polling messages from topic 'buzzline_json'...
+2025-01-31 20:40:01.547 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 1}
+2025-01-31 20:40:01.549 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Yeah, thatâ€™s right!', 'author': 'Moe'}
+2025-01-31 20:40:01.662 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Put a little elbow grease in.', 'author': 'Marge'}
+2025-01-31 20:40:01.663 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.664 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.665 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 1}
+2025-01-31 20:40:01.666 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Oh, Homie.', 'author': 'Marge'}
+2025-01-31 20:40:01.666 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.667 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.667 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 2}
+2025-01-31 20:40:01.668 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Itâ€™s just a phase.', 'author': 'Marge'}
+2025-01-31 20:40:01.669 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.669 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.670 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 3}
+2025-01-31 20:40:01.672 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'I love you, Homer.', 'author': 'Marge'}
+2025-01-31 20:40:01.674 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.675 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.676 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 4}
+2025-01-31 20:40:01.678 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If you love something, let it go.', 'author': 'Marge'}
+2025-01-31 20:40:01.679 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.680 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.681 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 5}
+2025-01-31 20:40:01.684 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Mmm... bacon.', 'author': 'Marge'}
+2025-01-31 20:40:01.685 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.686 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.687 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 6}
+2025-01-31 20:40:01.692 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Dâ€™oh!', 'author': 'Marge'}
+2025-01-31 20:40:01.694 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.695 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.697 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 7}
+2025-01-31 20:40:01.702 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a bad guy. Iâ€™m just a guy who does bad things.', 'author': 'Marge'}
+2025-01-31 20:40:01.703 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:01.705 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:01.708 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8}
+2025-01-31 20:40:01.712 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:40:01.713 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:01.713 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:01.714 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 1}
+2025-01-31 20:40:01.717 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Catch you later, dude!', 'author': 'Lisa'}
+2025-01-31 20:40:01.718 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:01.719 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:01.721 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 2}
+2025-01-31 20:40:01.734 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'My brain is my second best feature.', 'author': 'Lisa'}
+2025-01-31 20:40:01.736 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:01.738 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:01.742 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 3}
+2025-01-31 20:40:01.750 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:40:01.751 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:01.752 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:01.754 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 4}
+2025-01-31 20:40:01.759 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Lisa'}
+2025-01-31 20:40:01.760 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:01.761 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:01.762 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 5}
+2025-01-31 20:40:01.765 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Ay caramba!', 'author': 'Bart'}
+2025-01-31 20:40:01.766 | INFO     | __main__:process_message:69 - Message received from author: Bart
+2025-01-31 20:40:01.767 | INFO     | __main__:log_custom_message:51 - Bart just said their catchphrase: No phrase
+2025-01-31 20:40:01.768 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 5, 'Bart': 1}
+2025-01-31 20:40:01.774 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'The world is my oyster... and my jewel!', 'author': 'Lisa'}
+2025-01-31 20:40:01.776 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:01.777 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:01.779 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 6, 'Bart': 1}
+2025-01-31 20:40:01.782 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is the best day ever!', 'author': 'Lisa'}
+2025-01-31 20:40:01.783 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:01.784 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:01.785 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1}
+2025-01-31 20:40:01.796 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Yeah, thatâ€™s right!', 'author': 'Moe'}
+2025-01-31 20:40:01.799 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:01.800 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:01.803 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 1}
+2025-01-31 20:40:02.551 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 2}
+2025-01-31 20:40:02.554 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not a people person.', 'author': 'Moe'}
+2025-01-31 20:40:02.559 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a people person.', 'author': 'Moe'}
+2025-01-31 20:40:02.560 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:02.561 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:02.562 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 2}
+2025-01-31 20:40:03.557 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 3}
+2025-01-31 20:40:03.558 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is a disaster, a disaster!', 'author': 'Moe'}
+2025-01-31 20:40:03.564 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is a disaster, a disaster!', 'author': 'Moe'}
+2025-01-31 20:40:03.565 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:03.566 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:03.567 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 3}
+2025-01-31 20:40:04.561 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 4}
+2025-01-31 20:40:04.563 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Get outta here, you lousy punk!', 'author': 'Moe'}
+2025-01-31 20:40:04.570 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Get outta here, you lousy punk!', 'author': 'Moe'}
+2025-01-31 20:40:04.572 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:04.573 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:04.573 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 4}
+2025-01-31 20:40:04.919 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:04.914643', 'temperature': 73.2}
+2025-01-31 20:40:05.564 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 5}
+2025-01-31 20:40:05.565 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Youâ€™re all a bunch of scumbags!', 'author': 'Moe'}
+2025-01-31 20:40:05.571 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Youâ€™re all a bunch of scumbags!', 'author': 'Moe'}
+2025-01-31 20:40:05.572 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:05.573 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:05.574 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 5}
+2025-01-31 20:40:06.569 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 6}
+2025-01-31 20:40:06.577 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m just trying to make a living here!', 'author': 'Moe'}
+2025-01-31 20:40:06.592 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m just trying to make a living here!', 'author': 'Moe'}
+2025-01-31 20:40:06.595 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:06.596 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:06.599 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 6}
+2025-01-31 20:40:07.584 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 7}
+2025-01-31 20:40:07.588 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "Ain't no rest for the wicked!", 'author': 'Moe'}
+2025-01-31 20:40:07.608 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "Ain't no rest for the wicked!", 'author': 'Moe'}
+2025-01-31 20:40:07.609 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:07.610 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:07.611 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 7}
+2025-01-31 20:40:08.593 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8}
+2025-01-31 20:40:08.594 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Hereâ€™s your beer, donâ€™t drink it too fast!', 'author': 'Moe'}
+2025-01-31 20:40:08.600 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Hereâ€™s your beer, donâ€™t drink it too fast!', 'author': 'Moe'}
+2025-01-31 20:40:08.601 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:08.602 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:08.603 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8}
+2025-01-31 20:40:09.600 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 1}
+2025-01-31 20:40:09.608 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'If I had a nickel for every time I heard that...', 'author': 'Barney'}
+2025-01-31 20:40:09.622 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If I had a nickel for every time I heard that...', 'author': 'Barney'}
+2025-01-31 20:40:09.624 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:09.626 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:09.627 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 1}
+2025-01-31 20:40:09.928 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:09.925577', 'temperature': 73.6}
+2025-01-31 20:40:10.615 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 2}
+2025-01-31 20:40:10.617 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Do you ever get the feeling that the worldâ€™s against you?', 'author': 'Barney'}
+2025-01-31 20:40:10.624 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Do you ever get the feeling that the worldâ€™s against you?', 'author': 'Barney'}
+2025-01-31 20:40:10.625 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:10.626 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:10.626 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 2}
+2025-01-31 20:40:11.664 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 3}
+2025-01-31 20:40:11.692 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is the best beer Iâ€™ve ever had.', 'author': 'Barney'}
+2025-01-31 20:40:11.699 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is the best beer Iâ€™ve ever had.', 'author': 'Barney'}
+2025-01-31 20:40:11.700 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:11.701 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:11.702 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 3}
+2025-01-31 20:40:12.741 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 4}
+2025-01-31 20:40:12.798 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "You just can't keep a good man down.", 'author': 'Barney'}
+2025-01-31 20:40:12.799 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:12.800 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+can't keep a good man down.", 'author': 'Barney'}
+2025-01-31 20:40:12.804 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 4}
+2025-01-31 20:40:13.872 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 5}
+2025-01-31 20:40:13.878 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not an alcoholic... Iâ€™m a good drinker!', 'author': 'Barney'}
+2025-01-31 20:40:13.889 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not an alcoholic... Iâ€™m a good drinker!', 'author': 'Barney'}
+2025-01-31 20:40:13.890 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:13.891 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:13.891 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 5}
+2025-01-31 20:40:14.909 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 6}
+2025-01-31 20:40:14.916 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Woo-hoo! Party time!', 'author': 'Barney'}
+2025-01-31 20:40:14.933 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Woo-hoo! Party time!', 'author': 'Barney'}
+2025-01-31 20:40:14.934 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:14.935 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:14.937 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 6}
+2025-01-31 20:40:14.997 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:14.945160', 'temperature': 74.0}
+2025-01-31 20:40:15.932 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 7}
+2025-01-31 20:40:15.933 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™ve seen some things, man, some things!', 'author': 'Barney'}
+2025-01-31 20:40:15.938 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™ve seen some things, man, some things!', 'author': 'Barney'}
+2025-01-31 20:40:15.939 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:15.940 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:15.940 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 7}
+2025-01-31 20:40:16.935 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8}
+2025-01-31 20:40:16.937 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Can I get a hell yeah?', 'author': 'Barney'}
+2025-01-31 20:40:16.942 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Can I get a hell yeah?', 'author': 'Barney'}
+2025-01-31 20:40:16.943 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:16.944 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:16.945 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8}
+2025-01-31 20:40:17.943 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 1}
+2025-01-31 20:40:17.951 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Hey, you gotta let me outta here, man!', 'author': 'Otto'}
+2025-01-31 20:40:17.975 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Hey, you gotta let me outta here, man!', 'author': 'Otto'}
+2025-01-31 20:40:17.977 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:17.978 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:17.979 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 1}
+2025-01-31 20:40:18.971 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 2}
+2025-01-31 20:40:18.973 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "School's in session!", 'author': 'Otto'}
+2025-01-31 20:40:18.977 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "School's in session!", 'author': 'Otto'}
+2025-01-31 20:40:18.978 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:18.978 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:18.979 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 2}
+2025-01-31 20:40:19.975 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 3}
+2025-01-31 20:40:19.977 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m just here to drive the bus!', 'author': 'Otto'}
+2025-01-31 20:40:19.982 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m just here to drive the bus!', 'author': 'Otto'}
+2025-01-31 20:40:19.983 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:19.984 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:19.985 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 3}
+2025-01-31 20:40:20.002 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:20.000146', 'temperature': 74.4}
+2025-01-31 20:40:20.979 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 4}
+2025-01-31 20:40:20.980 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Later, dudes!', 'author': 'Otto'}
+2025-01-31 20:40:20.985 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Later, dudes!', 'author': 'Otto'}
+2025-01-31 20:40:20.986 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:20.987 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:20.987 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 4}
+2025-01-31 20:40:21.983 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 5}
+2025-01-31 20:40:21.984 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'When do we get lunch?', 'author': 'Otto'}
+2025-01-31 20:40:21.989 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'When do we get lunch?', 'author': 'Otto'}
+2025-01-31 20:40:21.990 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:21.991 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:21.991 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 5}
+2025-01-31 20:40:22.986 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 6}
+2025-01-31 20:40:22.988 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m the king of the road!', 'author': 'Otto'}
+2025-01-31 20:40:22.993 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m the king of the road!', 'author': 'Otto'}
+2025-01-31 20:40:22.994 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:22.995 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:22.996 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 6}
+2025-01-31 20:40:23.991 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 7}
+2025-01-31 20:40:23.992 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Rock and roll!', 'author': 'Otto'}
+2025-01-31 20:40:23.997 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Rock and roll!', 'author': 'Otto'}
+2025-01-31 20:40:23.998 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:24.000 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:24.002 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 7}
+2025-01-31 20:40:24.994 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:24.996 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "Whoo! Let's get this show on the road!", 'author': 'Otto'}
+2025-01-31 20:40:25.005 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "Whoo! Let's get this show on the road!", 'author': 'Otto'}
+2025-01-31 20:40:25.006 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:25.006 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:25.007 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 8, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:25.008 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:25.005132', 'temperature': 74.8}
+2025-01-31 20:40:25.999 | INFO     | __main__:generate_messages:91 - Opening data file in read mode: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\buzz.json
+2025-01-31 20:40:26.001 | INFO     | __main__:generate_messages:93 - Reading data from file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\buzz.json
+2025-01-31 20:40:26.004 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 9, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:26.007 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Put a little elbow grease in.', 'author': 'Marge'}
+2025-01-31 20:40:26.017 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Put a little elbow grease in.', 'author': 'Marge'}
+2025-01-31 20:40:26.018 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:26.019 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:26.020 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 9, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:27.033 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 10, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:27.051 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Oh, Homie.', 'author': 'Marge'}
+2025-01-31 20:40:27.061 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Oh, Homie.', 'author': 'Marge'}
+2025-01-31 20:40:27.062 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:27.063 | INFO     | __main__:log_custom_message:41 - Marge is on fire! 10 messages... Put a little elbow grease in it!
+2025-01-31 20:40:27.064 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 10, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:28.079 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 11, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:28.110 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Itâ€™s just a phase.', 'author': 'Marge'}
+2025-01-31 20:40:28.150 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Itâ€™s just a phase.', 'author': 'Marge'}
+2025-01-31 20:40:28.151 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:28.153 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:28.155 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 11, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:29.506 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 12, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:29.567 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'I love you, Homer.', 'author': 'Marge'}
+2025-01-31 20:40:30.051 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'I love you, Homer.', 'author': 'Marge'}
+2025-01-31 20:40:30.051 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:30.052 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:30.053 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 12, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:30.134 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:30.077859', 'temperature': 75.2}
+2025-01-31 20:40:30.784 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 13, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:30.822 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'If you love something, let it go.', 'author': 'Marge'}
+2025-01-31 20:40:31.811 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If you love something, let it go.', 'author': 'Marge'}
+2025-01-31 20:40:31.824 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:31.824 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:31.825 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 13, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:31.981 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 14, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:32.018 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Mmm... bacon.', 'author': 'Marge'}
+2025-01-31 20:40:32.048 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Mmm... bacon.', 'author': 'Marge'}
+2025-01-31 20:40:32.089 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:32.089 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:32.090 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 14, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:33.038 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 15, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:33.039 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Dâ€™oh!', 'author': 'Marge'}
+2025-01-31 20:40:33.043 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Dâ€™oh!', 'author': 'Marge'}
+2025-01-31 20:40:33.044 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:33.045 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:33.046 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 15, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:34.040 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:34.041 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not a bad guy. Iâ€™m just a guy who does bad things.', 'author': 'Marge'}
+2025-01-31 20:40:34.050 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a bad guy. Iâ€™m just a guy who does bad things.', 'author': 'Marge'}
+2025-01-31 20:40:34.052 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:40:34.052 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:40:34.052 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 7, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:35.081 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 8, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:35.101 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:40:35.102 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:35.103 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:35.092 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:40:35.104 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 8, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:35.173 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:35.170249', 'temperature': 75.6}
+2025-01-31 20:40:36.105 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 9, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:36.106 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Catch you later, dude!', 'author': 'Lisa'}
+2025-01-31 20:40:36.112 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Catch you later, dude!', 'author': 'Lisa'}
+2025-01-31 20:40:36.113 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:36.114 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:36.114 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 9, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:37.108 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 10, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:37.111 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'My brain is my second best feature.', 'author': 'Lisa'}
+2025-01-31 20:40:37.121 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'My brain is my second best feature.', 'author': 'Lisa'}
+2025-01-31 20:40:37.122 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:37.122 | INFO     | __main__:log_custom_message:43 - Lisa’s intellect knows no bounds! 10 messages... I'm the voice of a generation!
+2025-01-31 20:40:37.123 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 10, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:38.115 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 11, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:38.116 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:40:38.124 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:40:38.125 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:38.126 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:38.127 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 11, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:39.120 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 12, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:39.125 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Lisa'}
+2025-01-31 20:40:39.142 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Lisa'}
+2025-01-31 20:40:39.144 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:39.146 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:39.147 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 12, 'Bart': 1, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:40.132 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 12, 'Bart': 2, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:40.134 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Ay caramba!', 'author': 'Bart'}
+2025-01-31 20:40:40.139 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Ay caramba!', 'author': 'Bart'}
+2025-01-31 20:40:40.140 | INFO     | __main__:process_message:69 - Message received from author: Bart
+2025-01-31 20:40:40.140 | INFO     | __main__:log_custom_message:51 - Bart just said their catchphrase: No phrase
+2025-01-31 20:40:40.141 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 12, 'Bart': 2, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:40.178 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:40.174111', 'temperature': 76.0}
+2025-01-31 20:40:41.148 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 13, 'Bart': 2, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:41.150 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'The world is my oyster... and my jewel!', 'author': 'Lisa'}
+2025-01-31 20:40:41.172 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'The world is my oyster... and my jewel!', 'author': 'Lisa'}
+2025-01-31 20:40:41.173 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:41.173 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:41.174 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 13, 'Bart': 2, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:42.255 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:42.324 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is the best day ever!', 'author': 'Lisa'}
+2025-01-31 20:40:42.382 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is the best day ever!', 'author': 'Lisa'}
+2025-01-31 20:40:42.383 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:40:42.384 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:40:42.385 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 8, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:43.416 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 9, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:43.453 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Yeah, thatâ€™s right!', 'author': 'Moe'}
+2025-01-31 20:40:43.460 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Yeah, thatâ€™s right!', 'author': 'Moe'}
+2025-01-31 20:40:43.461 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:43.462 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:43.463 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 9, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:44.604 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 10, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:44.657 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not a people person.', 'author': 'Moe'}
+2025-01-31 20:40:44.757 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a people person.', 'author': 'Moe'}
+2025-01-31 20:40:44.758 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:44.760 | INFO     | __main__:log_custom_message:45 - Moe’s tavern is getting popular! 10 messages... 'Hey, hey, hey!'
+2025-01-31 20:40:44.762 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 10, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:45.349 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:40:45.232164', 'temperature': 76.4, 'historical_fact': "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style."}
+2025-01-31 20:40:45.663 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 11, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:45.665 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is a disaster, a disaster!', 'author': 'Moe'}
+2025-01-31 20:40:45.673 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is a disaster, a disaster!', 'author': 'Moe'}
+2025-01-31 20:40:45.674 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:45.675 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:45.676 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 11, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:46.680 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 12, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:46.693 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Get outta here, you lousy punk!', 'author': 'Moe'}
+2025-01-31 20:40:46.707 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Get outta here, you lousy punk!', 'author': 'Moe'}
+2025-01-31 20:40:46.710 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:46.712 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:46.714 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 12, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:47.702 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 13, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:47.703 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Youâ€™re all a bunch of scumbags!', 'author': 'Moe'}
+2025-01-31 20:40:47.708 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Youâ€™re all a bunch of scumbags!', 'author': 'Moe'}
+2025-01-31 20:40:47.709 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:47.710 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:47.711 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 13, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:48.706 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 14, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:48.709 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m just trying to make a living here!', 'author': 'Moe'}
+2025-01-31 20:40:48.714 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m just trying to make a living here!', 'author': 'Moe'}
+2025-01-31 20:40:48.715 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:48.716 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:48.717 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 14, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:49.711 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 15, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:49.715 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "Ain't no rest for the wicked!", 'author': 'Moe'}
+2025-01-31 20:40:49.724 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "Ain't no rest for the wicked!", 'author': 'Moe'}
+2025-01-31 20:40:49.727 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:49.728 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:49.729 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 15, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:50.718 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:50.719 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Hereâ€™s your beer, donâ€™t drink it too fast!', 'author': 'Moe'}
+2025-01-31 20:40:50.729 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Hereâ€™s your beer, donâ€™t drink it too fast!', 'author': 'Moe'}
+2025-01-31 20:40:50.730 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:40:50.731 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:40:50.732 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 8, 'Otto': 8}
+2025-01-31 20:40:51.722 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 9, 'Otto': 8}
+2025-01-31 20:40:51.726 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'If I had a nickel for every time I heard that...', 'author': 'Barney'}
+2025-01-31 20:40:51.744 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If I had a nickel for every time I heard that...', 'author': 'Barney'}
+2025-01-31 20:40:51.747 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:51.751 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:51.754 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 9, 'Otto': 8}
+2025-01-31 20:40:52.731 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 10, 'Otto': 8}
+2025-01-31 20:40:52.734 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Do you ever get the feeling that the worldâ€™s against you?', 'author': 'Barney'}
+2025-01-31 20:40:52.749 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Do you ever get the feeling that the worldâ€™s against you?', 'author': 'Barney'}
+2025-01-31 20:40:52.751 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:52.753 | INFO     | __main__:log_custom_message:47 - Barney’s taking over! 10 messages... No problem!
+2025-01-31 20:40:52.756 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 10, 'Otto': 8}
+2025-01-31 20:40:53.737 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 11, 'Otto': 8}
+2025-01-31 20:40:53.738 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is the best beer Iâ€™ve ever had.', 'author': 'Barney'}
+2025-01-31 20:40:53.744 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is the best beer Iâ€™ve ever had.', 'author': 'Barney'}
+2025-01-31 20:40:53.745 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:53.746 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:53.747 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 11, 'Otto': 8}
+2025-01-31 20:40:54.742 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 12, 'Otto': 8}
+2025-01-31 20:40:54.743 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "You just can't keep a good man down.", 'author': 'Barney'}
+2025-01-31 20:40:54.747 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "You just can't keep a good man down.", 'author': 'Barney'}
+2025-01-31 20:40:54.749 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:54.749 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:54.750 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 12, 'Otto': 8}
+2025-01-31 20:40:55.745 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 13, 'Otto': 8}
+2025-01-31 20:40:55.746 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not an alcoholic... Iâ€™m a good drinker!', 'author': 'Barney'}
+2025-01-31 20:40:55.756 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not an alcoholic... Iâ€™m a good drinker!', 'author': 'Barney'}
+2025-01-31 20:40:55.757 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:55.758 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:55.758 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 13, 'Otto': 8}
+2025-01-31 20:40:56.749 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 14, 'Otto': 8}
+2025-01-31 20:40:56.755 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Woo-hoo! Party time!', 'author': 'Barney'}
+2025-01-31 20:40:56.761 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Woo-hoo! Party time!', 'author': 'Barney'}
+2025-01-31 20:40:56.762 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:56.763 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:56.764 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 14, 'Otto': 8}
+2025-01-31 20:40:57.761 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 15, 'Otto': 8}
+2025-01-31 20:40:57.764 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™ve seen some things, man, some things!', 'author': 'Barney'}
+2025-01-31 20:40:57.770 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™ve seen some things, man, some things!', 'author': 'Barney'}
+2025-01-31 20:40:57.771 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:57.772 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:57.774 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 15, 'Otto': 8}
+2025-01-31 20:40:58.802 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 8}
+2025-01-31 20:40:58.814 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Can I get a hell yeah?', 'author': 'Barney'}
+2025-01-31 20:40:58.846 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Can I get a hell yeah?', 'author': 'Barney'}
+2025-01-31 20:40:58.847 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:40:58.848 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:40:58.849 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 8}
+2025-01-31 20:40:59.819 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 9}
+2025-01-31 20:40:59.823 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Hey, you gotta let me outta here, man!', 'author': 'Otto'}
+2025-01-31 20:40:59.841 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Hey, you gotta let me outta here, man!', 'author': 'Otto'}
+2025-01-31 20:40:59.845 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:40:59.849 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:40:59.852 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 9}
+2025-01-31 20:41:00.826 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 10}
+2025-01-31 20:41:00.828 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "School's in session!", 'author': 'Otto'}
+2025-01-31 20:41:00.833 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "School's in session!", 'author': 'Otto'}
+2025-01-31 20:41:00.834 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:00.834 | INFO     | __main__:log_custom_message:49 - Otto is rocking it! 10 messages... Time to rock!
+2025-01-31 20:41:00.835 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 10}
+2025-01-31 20:41:01.832 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 11}
+2025-01-31 20:41:01.834 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m just here to drive the bus!', 'author': 'Otto'}
+2025-01-31 20:41:01.860 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m just here to drive the bus!', 'author': 'Otto'}
+2025-01-31 20:41:01.864 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:01.867 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:01.870 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 11}
+2025-01-31 20:41:02.839 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 12}
+2025-01-31 20:41:02.842 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Later, dudes!', 'author': 'Otto'}
+2025-01-31 20:41:02.851 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Later, dudes!', 'author': 'Otto'}
+2025-01-31 20:41:02.852 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:02.853 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:02.855 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 12}
+2025-01-31 20:41:03.843 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 13}
+2025-01-31 20:41:03.845 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'When do we get lunch?', 'author': 'Otto'}
+2025-01-31 20:41:03.850 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'When do we get lunch?', 'author': 'Otto'}
+2025-01-31 20:41:03.851 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:03.852 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:03.852 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 13}
+2025-01-31 20:41:04.848 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 14}
+2025-01-31 20:41:04.849 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m the king of the road!', 'author': 'Otto'}
+2025-01-31 20:41:04.855 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m the king of the road!', 'author': 'Otto'}
+2025-01-31 20:41:04.856 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:04.857 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:04.858 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 14}
+2025-01-31 20:41:05.852 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 15}
+2025-01-31 20:41:05.853 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Rock and roll!', 'author': 'Otto'}
+2025-01-31 20:41:05.858 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Rock and roll!', 'author': 'Otto'}
+2025-01-31 20:41:05.859 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:05.860 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:05.860 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 15}
+2025-01-31 20:41:06.855 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:06.856 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "Whoo! Let's get this show on the road!", 'author': 'Otto'}
+2025-01-31 20:41:06.861 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "Whoo! Let's get this show on the road!", 'author': 'Otto'}
+2025-01-31 20:41:06.862 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:06.863 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:06.863 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 16, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:07.858 | INFO     | __main__:generate_messages:91 - Opening data file in read mode: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\buzz.json
+2025-01-31 20:41:07.860 | INFO     | __main__:generate_messages:93 - Reading data from file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\buzz.json
+2025-01-31 20:41:07.863 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 17, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:07.866 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Put a little elbow grease in.', 'author': 'Marge'}
+2025-01-31 20:41:07.878 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Put a little elbow grease in.', 'author': 'Marge'}
+2025-01-31 20:41:07.879 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:07.881 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:41:07.882 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 17, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:08.873 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 18, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:08.875 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Oh, Homie.', 'author': 'Marge'}
+2025-01-31 20:41:08.881 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Oh, Homie.', 'author': 'Marge'}
+2025-01-31 20:41:08.882 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:08.883 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:41:08.883 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 18, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:09.878 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 19, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:09.879 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Itâ€™s just a phase.', 'author': 'Marge'}
+2025-01-31 20:41:09.885 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Itâ€™s just a phase.', 'author': 'Marge'}
+2025-01-31 20:41:09.886 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:09.887 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:41:09.888 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 19, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:10.882 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 20, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:10.884 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'I love you, Homer.', 'author': 'Marge'}
+2025-01-31 20:41:10.910 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'I love you, Homer.', 'author': 'Marge'}
+2025-01-31 20:41:10.912 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:10.914 | INFO     | __main__:log_custom_message:41 - Marge is on fire! 20 messages... Put a little elbow grease in it!
+2025-01-31 20:41:10.915 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 20, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:11.946 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 21, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:11.998 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'If you love something, let it go.', 'author': 'Marge'}
+2025-01-31 20:41:12.046 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If you love something, let it go.', 'author': 'Marge'}
+2025-01-31 20:41:12.047 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:12.048 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:41:12.049 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 21, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:13.178 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 22, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:13.330 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Mmm... bacon.', 'author': 'Marge'}
+2025-01-31 20:41:13.331 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:13.332 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:41:13.333 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 22, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:13.271 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Mmm... bacon.', 'author': 'Marge'}
+2025-01-31 20:41:14.410 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 23, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:14.447 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Dâ€™oh!', 'author': 'Marge'}
+2025-01-31 20:41:14.448 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:14.449 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:41:14.450 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 23, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:14.438 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Dâ€™oh!', 'author': 'Marge'}
+2025-01-31 20:41:15.508 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:15.520 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not a bad guy. Iâ€™m just a guy who does bad things.', 'author': 'Marge'}
+2025-01-31 20:41:15.590 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a bad guy. Iâ€™m just a guy who does bad things.', 'author': 'Marge'}
+2025-01-31 20:41:15.591 | INFO     | __main__:process_message:69 - Message received from author: Marge
+2025-01-31 20:41:15.592 | INFO     | __main__:log_custom_message:51 - Marge just said their catchphrase: Put a little elbow grease in it
+2025-01-31 20:41:15.593 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 14, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:16.655 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 15, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:16.704 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:41:16.785 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:41:16.786 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:41:16.788 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:41:16.789 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 15, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:17.709 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 16, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:17.712 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Catch you later, dude!', 'author': 'Lisa'}
+2025-01-31 20:41:17.728 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Catch you later, dude!', 'author': 'Lisa'}
+2025-01-31 20:41:17.731 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:41:17.733 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:41:17.734 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 16, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:18.723 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 17, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:18.730 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'My brain is my second best feature.', 'author': 'Lisa'}
+2025-01-31 20:41:18.746 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'My brain is my second best feature.', 'author': 'Lisa'}
+2025-01-31 20:41:18.748 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:41:18.749 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:41:18.750 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 17, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:19.734 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 18, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:19.735 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:41:19.741 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Donâ€™t have a cow, man!', 'author': 'Lisa'}
+2025-01-31 20:41:19.741 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:41:19.743 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:41:19.743 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 18, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:20.739 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 19, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:20.740 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Lisa'}
+2025-01-31 20:41:20.745 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Lisa'}
+2025-01-31 20:41:20.746 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:41:20.747 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:41:20.747 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 19, 'Bart': 2, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:21.742 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 19, 'Bart': 3, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:21.744 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Ay caramba!', 'author': 'Bart'}
+2025-01-31 20:41:21.754 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Ay caramba!', 'author': 'Bart'}
+2025-01-31 20:41:21.755 | INFO     | __main__:process_message:69 - Message received from author: Bart
+2025-01-31 20:41:21.756 | INFO     | __main__:log_custom_message:51 - Bart just said their catchphrase: No phrase
+2025-01-31 20:41:21.757 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 19, 'Bart': 3, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:22.746 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 20, 'Bart': 3, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:22.747 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'The world is my oyster... and my jewel!', 'author': 'Lisa'}
+2025-01-31 20:41:22.755 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'The world is my oyster... and my jewel!', 'author': 'Lisa'}
+2025-01-31 20:41:22.756 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:41:22.756 | INFO     | __main__:log_custom_message:43 - Lisa’s intellect knows no bounds! 20 messages... I'm the voice of a generation!
+2025-01-31 20:41:22.757 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 20, 'Bart': 3, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:23.753 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:23.755 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is the best day ever!', 'author': 'Lisa'}
+2025-01-31 20:41:23.760 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is the best day ever!', 'author': 'Lisa'}
+2025-01-31 20:41:23.761 | INFO     | __main__:process_message:69 - Message received from author: Lisa
+2025-01-31 20:41:23.762 | INFO     | __main__:log_custom_message:51 - Lisa just said their catchphrase: If anyone can do it, I can
+2025-01-31 20:41:23.762 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 16, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:24.759 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 17, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:24.762 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Yeah, thatâ€™s right!', 'author': 'Moe'}
+2025-01-31 20:41:24.788 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Yeah, thatâ€™s right!', 'author': 'Moe'}
+2025-01-31 20:41:24.791 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:24.794 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:41:24.802 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 17, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:25.776 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 18, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:25.778 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not a people person.', 'author': 'Moe'}
+2025-01-31 20:41:25.784 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not a people person.', 'author': 'Moe'}
+2025-01-31 20:41:25.785 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:25.786 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:41:25.787 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 18, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:26.783 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 19, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:26.794 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is a disaster, a disaster!', 'author': 'Moe'}
+2025-01-31 20:41:26.810 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is a disaster, a disaster!', 'author': 'Moe'}
+2025-01-31 20:41:26.811 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:26.812 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:41:26.813 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 19, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:27.826 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 20, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:27.855 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Get outta here, you lousy punk!', 'author': 'Moe'}
+2025-01-31 20:41:27.925 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Get outta here, you lousy punk!', 'author': 'Moe'}
+2025-01-31 20:41:27.926 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:27.927 | INFO     | __main__:log_custom_message:45 - Moe’s tavern is getting popular! 20 messages... 'Hey, hey, hey!'
+2025-01-31 20:41:27.928 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 20, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:28.959 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 21, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:28.994 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Youâ€™re all a bunch of scumbags!', 'author': 'Moe'}
+2025-01-31 20:41:28.995 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:28.995 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:41:28.999 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 21, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:28.991 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Youâ€™re all a bunch of scumbags!', 'author': 'Moe'}
+2025-01-31 20:41:30.065 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 22, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:30.066 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m just trying to make a living here!', 'author': 'Moe'}
+2025-01-31 20:41:30.072 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m just trying to make a living here!', 'author': 'Moe'}
+2025-01-31 20:41:30.073 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:30.074 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:41:30.075 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 22, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:31.070 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 23, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:31.072 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "Ain't no rest for the wicked!", 'author': 'Moe'}
+2025-01-31 20:41:31.083 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "Ain't no rest for the wicked!", 'author': 'Moe'}
+2025-01-31 20:41:31.084 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:31.085 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:41:31.086 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 23, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:32.074 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:32.077 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Hereâ€™s your beer, donâ€™t drink it too fast!', 'author': 'Moe'}
+2025-01-31 20:41:32.084 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Hereâ€™s your beer, donâ€™t drink it too fast!', 'author': 'Moe'}
+2025-01-31 20:41:32.085 | INFO     | __main__:process_message:69 - Message received from author: Moe
+2025-01-31 20:41:32.086 | INFO     | __main__:log_custom_message:51 - Moe just said their catchphrase: Hey, hey, hey
+2025-01-31 20:41:32.087 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 16, 'Otto': 16}
+2025-01-31 20:41:33.083 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 17, 'Otto': 16}
+2025-01-31 20:41:33.085 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'If I had a nickel for every time I heard that...', 'author': 'Barney'}
+2025-01-31 20:41:33.091 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'If I had a nickel for every time I heard that...', 'author': 'Barney'}
+2025-01-31 20:41:33.092 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:33.093 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:41:33.094 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 17, 'Otto': 16}
+2025-01-31 20:41:34.087 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 18, 'Otto': 16}
+2025-01-31 20:41:34.089 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Do you ever get the feeling that the worldâ€™s against you?', 'author': 'Barney'}
+2025-01-31 20:41:34.094 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Do you ever get the feeling that the worldâ€™s against you?', 'author': 'Barney'}
+2025-01-31 20:41:34.096 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:34.096 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:41:34.097 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 18, 'Otto': 16}
+2025-01-31 20:41:35.092 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 19, 'Otto': 16}
+2025-01-31 20:41:35.094 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'This is the best beer Iâ€™ve ever had.', 'author': 'Barney'}
+2025-01-31 20:41:35.101 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'This is the best beer Iâ€™ve ever had.', 'author': 'Barney'}
+2025-01-31 20:41:35.102 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:35.102 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:41:35.103 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 19, 'Otto': 16}
+2025-01-31 20:41:36.097 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 20, 'Otto': 16}
+2025-01-31 20:41:36.099 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "You just can't keep a good man down.", 'author': 'Barney'}
+2025-01-31 20:41:36.104 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "You just can't keep a good man down.", 'author': 'Barney'}
+2025-01-31 20:41:36.105 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:36.105 | INFO     | __main__:log_custom_message:47 - Barney’s taking over! 20 messages... No problem!
+2025-01-31 20:41:36.106 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 20, 'Otto': 16}
+2025-01-31 20:41:37.102 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 21, 'Otto': 16}
+2025-01-31 20:41:37.103 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m not an alcoholic... Iâ€™m a good drinker!', 'author': 'Barney'}
+2025-01-31 20:41:37.108 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m not an alcoholic... Iâ€™m a good drinker!', 'author': 'Barney'}
+2025-01-31 20:41:37.109 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:37.110 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:41:37.111 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 21, 'Otto': 16}
+2025-01-31 20:41:38.107 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 22, 'Otto': 16}
+2025-01-31 20:41:38.108 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Woo-hoo! Party time!', 'author': 'Barney'}
+2025-01-31 20:41:38.114 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Woo-hoo! Party time!', 'author': 'Barney'}
+2025-01-31 20:41:38.115 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:38.116 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:41:38.116 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 22, 'Otto': 16}
+2025-01-31 20:41:39.112 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 23, 'Otto': 16}
+2025-01-31 20:41:39.113 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™ve seen some things, man, some things!', 'author': 'Barney'}
+2025-01-31 20:41:39.118 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™ve seen some things, man, some things!', 'author': 'Barney'}
+2025-01-31 20:41:39.119 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:39.119 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:41:39.120 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 23, 'Otto': 16}
+2025-01-31 20:41:40.116 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 16}
+2025-01-31 20:41:40.118 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Can I get a hell yeah?', 'author': 'Barney'}
+2025-01-31 20:41:40.129 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Can I get a hell yeah?', 'author': 'Barney'}
+2025-01-31 20:41:40.130 | INFO     | __main__:process_message:69 - Message received from author: Barney
+2025-01-31 20:41:40.131 | INFO     | __main__:log_custom_message:51 - Barney just said their catchphrase: No problem
+2025-01-31 20:41:40.132 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 16}
+2025-01-31 20:41:41.120 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 17}
+2025-01-31 20:41:41.122 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Hey, you gotta let me outta here, man!', 'author': 'Otto'}
+2025-01-31 20:41:41.129 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Hey, you gotta let me outta here, man!', 'author': 'Otto'}
+2025-01-31 20:41:41.130 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:41.131 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:41.133 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 17}
+2025-01-31 20:41:42.158 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 18}
+2025-01-31 20:41:42.204 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': "School's in session!", 'author': 'Otto'}
+2025-01-31 20:41:42.302 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': "School's in session!", 'author': 'Otto'}
+2025-01-31 20:41:42.303 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:42.303 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:42.304 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 18}
+2025-01-31 20:41:43.439 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 19}
+2025-01-31 20:41:43.499 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m just here to drive the bus!', 'author': 'Otto'}
+2025-01-31 20:41:43.543 | INFO     | __main__:process_message:63 - Processed JSON message: {'message': 'Iâ€™m just here to drive the bus!', 'author': 'Otto'}
+2025-01-31 20:41:43.545 | INFO     | __main__:process_message:69 - Message received from author: Otto
+2025-01-31 20:41:43.545 | INFO     | __main__:log_custom_message:51 - Otto just said their catchphrase: Relax, man!
+2025-01-31 20:41:43.546 | INFO     | __main__:process_message:78 - Updated author counts: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 19}
+2025-01-31 20:41:44.504 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 20}
+2025-01-31 20:41:44.506 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Later, dudes!', 'author': 'Otto'}
+2025-01-31 20:41:44.524 | WARNING  | __main__:main:108 - Consumer interrupted by user.
+2025-01-31 20:41:44.551 | INFO     | __main__:main:113 - Kafka consumer for topic 'buzzline_json' closed.
+2025-01-31 20:41:44.553 | INFO     | __main__:main:115 - END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-01-31 20:41:45.513 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 21}
+2025-01-31 20:41:45.518 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'When do we get lunch?', 'author': 'Otto'}
+2025-01-31 20:41:46.534 | INFO     | __main__:update_catchphrase_count:137 - Current catchphrase count: {'Marge': 24, 'Lisa': 21, 'Bart': 3, 'Moe': 24, 'Barney': 24, 'Otto': 22}
+2025-01-31 20:41:46.539 | INFO     | __main__:main:190 - Sent message to topic 'buzzline_json': {'message': 'Iâ€™m the king of the road!', 'author': 'Otto'}
+2025-01-31 20:41:47.261 | WARNING  | __main__:main:193 - Producer interrupted by user.
+2025-01-31 20:41:47.263 | INFO     | __main__:main:198 - Kafka producer closed.
+2025-01-31 20:41:47.265 | INFO     | __main__:main:200 - END producer.
