@@ -1867,3 +1867,161 @@
 2025-01-31 20:08:04.728 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:04.726390', 'temperature': 114.4, 'historical_fact': 'Memphis BBQ got famous through river trade – In the 19th century, Memphis became a BBQ hub thanks to its location along the Mississippi River, where pork was plentiful and slow-cooked with a dry rub.'}
 2025-01-31 20:08:09.731 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:09.730540', 'temperature': 114.8}
 2025-01-31 20:08:14.751 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:14.738495', 'temperature': 115.2}
+2025-01-31 20:08:19.791 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:19.785380', 'temperature': 115.6}
+2025-01-31 20:08:24.798 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:24.795416', 'temperature': 116.0}
+2025-01-31 20:08:29.801 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:29.800571', 'temperature': 116.4}
+2025-01-31 20:08:34.809 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:34.805150', 'temperature': 116.8}
+2025-01-31 20:08:39.815 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:39.813301', 'temperature': 117.2}
+2025-01-31 20:08:44.818 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:44.816807', 'temperature': 117.6}
+2025-01-31 20:08:49.821 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:49.820688', 'temperature': 118.0}
+2025-01-31 20:08:54.837 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:54.828281', 'temperature': 118.4, 'historical_fact': "George Washington loved BBQ – The first U.S. president was known to host barbecues at his Mount Vernon estate. His diary even mentions attending a 'barbicue' in 1769."}
+2025-01-31 20:08:59.872 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:08:59.855280', 'temperature': 118.8}
+2025-01-31 20:09:04.894 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:04.892070', 'temperature': 119.2}
+2025-01-31 20:09:09.897 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:09.895837', 'temperature': 119.6}
+2025-01-31 20:09:15.131 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:15.017193', 'temperature': 120.0}
+2025-01-31 20:09:20.169 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:20.154299', 'temperature': 120.4}
+2025-01-31 20:09:25.174 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:25.172236', 'temperature': 120.8}
+2025-01-31 20:09:30.177 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:30.176150', 'temperature': 121.2}
+2025-01-31 20:09:35.180 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:35.178750', 'temperature': 121.6}
+2025-01-31 20:09:40.183 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:40.182266', 'temperature': 122.0}
+2025-01-31 20:09:45.187 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:45.185805', 'temperature': 122.4, 'historical_fact': "Alabama's famous white sauce was created in 1925 – Big Bob Gibson in Decatur, Alabama, invented the tangy, mayo-based white sauce that became a staple for smoked chicken."}
+2025-01-31 20:09:50.190 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:50.189745', 'temperature': 122.8}
+2025-01-31 20:09:55.194 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:09:55.193031', 'temperature': 123.2}
+2025-01-31 20:10:00.209 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:00.200071', 'temperature': 123.6}
+2025-01-31 20:10:05.215 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:05.214149', 'temperature': 124.0}
+2025-01-31 20:10:10.218 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:10.217059', 'temperature': 124.4}
+2025-01-31 20:10:15.221 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:15.219818', 'temperature': 124.8}
+2025-01-31 20:10:20.229 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:20.224852', 'temperature': 125.2}
+2025-01-31 20:10:25.236 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:25.234246', 'temperature': 125.6}
+2025-01-31 20:10:30.251 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:30.247496', 'temperature': 126.0}
+2025-01-31 20:10:35.256 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:35.254957', 'temperature': 126.4, 'historical_fact': "The word 'barbecue' comes from the Caribbean – The term originates from the Taíno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame."}
+2025-01-31 20:10:40.263 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:40.259644', 'temperature': 126.8}
+2025-01-31 20:10:45.288 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:45.271598', 'temperature': 127.2}
+2025-01-31 20:10:50.291 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:50.290641', 'temperature': 127.6}
+2025-01-31 20:10:55.297 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:10:55.293845', 'temperature': 128.0}
+2025-01-31 20:11:00.301 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:00.300697', 'temperature': 128.4}
+2025-01-31 20:11:05.306 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:05.304200', 'temperature': 128.8}
+2025-01-31 20:11:10.313 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:10.310539', 'temperature': 129.2}
+2025-01-31 20:11:15.318 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:15.317227', 'temperature': 129.6}
+2025-01-31 20:11:20.324 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:20.319727', 'temperature': 130.0}
+2025-01-31 20:11:25.345 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:25.338218', 'temperature': 130.4, 'historical_fact': "Alabama's famous white sauce was created in 1925 – Big Bob Gibson in Decatur, Alabama, invented the tangy, mayo-based white sauce that became a staple for smoked chicken."}
+2025-01-31 20:11:30.350 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:30.347601', 'temperature': 130.8}
+2025-01-31 20:11:35.353 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:35.352614', 'temperature': 131.2}
+2025-01-31 20:11:40.356 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:40.355904', 'temperature': 131.6}
+2025-01-31 20:11:45.361 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:45.359061', 'temperature': 132.0}
+2025-01-31 20:11:50.364 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:50.362989', 'temperature': 132.4}
+2025-01-31 20:11:55.367 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:11:55.365644', 'temperature': 132.8}
+2025-01-31 20:12:00.371 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:00.369269', 'temperature': 133.2}
+2025-01-31 20:12:05.373 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:05.372764', 'temperature': 133.6}
+2025-01-31 20:12:10.378 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:10.377368', 'temperature': 134.0}
+2025-01-31 20:12:15.383 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:15.380429', 'temperature': 134.4, 'historical_fact': 'Memphis BBQ got famous through river trade – In the 19th century, Memphis became a BBQ hub thanks to its location along the Mississippi River, where pork was plentiful and slow-cooked with a dry rub.'}
+2025-01-31 20:12:20.389 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:20.386959', 'temperature': 134.8}
+2025-01-31 20:12:25.394 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:25.393830', 'temperature': 135.2}
+2025-01-31 20:12:30.399 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:30.397627', 'temperature': 135.6}
+2025-01-31 20:12:35.403 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:35.401588', 'temperature': 136.0}
+2025-01-31 20:12:40.408 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:40.405488', 'temperature': 136.4}
+2025-01-31 20:12:45.417 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:45.411512', 'temperature': 136.8}
+2025-01-31 20:12:50.420 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:50.419018', 'temperature': 137.2}
+2025-01-31 20:12:55.424 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:12:55.422289', 'temperature': 137.6}
+2025-01-31 20:13:00.434 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:00.426068', 'temperature': 138.0}
+2025-01-31 20:13:05.447 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:05.445509', 'temperature': 138.4, 'historical_fact': "Alabama's famous white sauce was created in 1925 – Big Bob Gibson in Decatur, Alabama, invented the tangy, mayo-based white sauce that became a staple for smoked chicken."}
+2025-01-31 20:13:10.451 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:10.449302', 'temperature': 138.8}
+2025-01-31 20:13:15.455 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:15.453512', 'temperature': 139.2}
+2025-01-31 20:13:20.460 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:20.458875', 'temperature': 139.6}
+2025-01-31 20:13:25.465 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:25.463023', 'temperature': 140.0}
+2025-01-31 20:13:30.472 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:30.467295', 'temperature': 140.4}
+2025-01-31 20:13:35.481 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:35.478716', 'temperature': 140.8}
+2025-01-31 20:13:40.486 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:40.485629', 'temperature': 141.2}
+2025-01-31 20:13:45.492 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:45.489322', 'temperature': 141.6}
+2025-01-31 20:13:50.498 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:50.497268', 'temperature': 142.0}
+2025-01-31 20:13:55.501 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:13:55.500725', 'temperature': 142.2, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 20:14:00.505 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:00.504709', 'temperature': 142.0}
+2025-01-31 20:14:05.510 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:05.508397', 'temperature': 142.2}
+2025-01-31 20:14:10.513 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:10.511690', 'temperature': 142.0}
+2025-01-31 20:14:15.518 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:15.515152', 'temperature': 142.2}
+2025-01-31 20:14:20.524 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:20.521870', 'temperature': 142.0}
+2025-01-31 20:14:25.531 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:25.530720', 'temperature': 142.2}
+2025-01-31 20:14:30.537 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:30.534339', 'temperature': 142.0}
+2025-01-31 20:14:35.542 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:35.540125', 'temperature': 142.2}
+2025-01-31 20:14:40.552 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:40.550863', 'temperature': 142.0}
+2025-01-31 20:14:45.560 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:45.555814', 'temperature': 142.2, 'historical_fact': 'Memphis BBQ got famous through river trade – In the 19th century, Memphis became a BBQ hub thanks to its location along the Mississippi River, where pork was plentiful and slow-cooked with a dry rub.'}
+2025-01-31 20:14:50.587 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:50.586750', 'temperature': 142.0}
+2025-01-31 20:14:55.591 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:14:55.589528', 'temperature': 142.2}
+2025-01-31 20:15:00.595 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:00.594798', 'temperature': 142.0}
+2025-01-31 20:15:05.603 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:05.598330', 'temperature': 142.2}
+2025-01-31 20:15:10.615 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:10.614096', 'temperature': 142.0}
+2025-01-31 20:15:15.622 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:15.617601', 'temperature': 142.2}
+2025-01-31 20:15:20.630 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:20.626903', 'temperature': 142.0}
+2025-01-31 20:15:25.636 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:25.634686', 'temperature': 142.2}
+2025-01-31 20:15:30.640 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:30.638266', 'temperature': 142.0}
+2025-01-31 20:15:35.645 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:35.643363', 'temperature': 142.2, 'historical_fact': 'North Carolina BBQ has a Civil War connection – The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods.'}
+2025-01-31 20:15:40.650 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:40.649934', 'temperature': 142.0}
+2025-01-31 20:15:45.654 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:45.653178', 'temperature': 142.2}
+2025-01-31 20:15:50.661 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:50.656191', 'temperature': 142.0}
+2025-01-31 20:15:55.674 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:15:55.666600', 'temperature': 142.2}
+2025-01-31 20:16:00.681 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:00.679064', 'temperature': 142.0}
+2025-01-31 20:16:05.685 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:05.682819', 'temperature': 142.2}
+2025-01-31 20:16:10.696 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:10.689505', 'temperature': 142.0}
+2025-01-31 20:16:15.813 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:15.782870', 'temperature': 142.2}
+2025-01-31 20:16:20.822 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:20.818240', 'temperature': 142.0}
+2025-01-31 20:16:25.830 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:25.825937', 'temperature': 142.2, 'historical_fact': "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style."}
+2025-01-31 20:16:30.835 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:30.833136', 'temperature': 142.0}
+2025-01-31 20:16:35.838 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:35.837220', 'temperature': 142.2}
+2025-01-31 20:16:40.840 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:40.839812', 'temperature': 142.0}
+2025-01-31 20:16:45.844 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:45.843253', 'temperature': 142.2}
+2025-01-31 20:16:50.848 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:50.846881', 'temperature': 142.0}
+2025-01-31 20:16:55.851 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:16:55.850219', 'temperature': 142.2}
+2025-01-31 20:17:00.858 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:00.853348', 'temperature': 142.0}
+2025-01-31 20:17:05.861 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:05.860621', 'temperature': 142.2}
+2025-01-31 20:17:10.866 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:10.864806', 'temperature': 142.0}
+2025-01-31 20:17:15.874 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:15.868930', 'temperature': 142.2, 'historical_fact': 'BBQ competitions go way back – The first recorded BBQ competition in the U.S. took place in the early 20th century, but BBQ cook-offs gained national popularity in the 1980s with the rise of the Kansas City Barbeque Society (KCBS).'}
+2025-01-31 20:17:20.878 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:20.877758', 'temperature': 142.0}
+2025-01-31 20:17:25.883 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:25.881061', 'temperature': 142.2}
+2025-01-31 20:17:30.887 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:30.884175', 'temperature': 142.0}
+2025-01-31 20:17:35.894 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:35.892030', 'temperature': 142.2}
+2025-01-31 20:17:40.897 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:40.895805', 'temperature': 142.0}
+2025-01-31 20:17:45.906 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:45.899794', 'temperature': 142.2}
+2025-01-31 20:17:50.917 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:50.910992', 'temperature': 142.0}
+2025-01-31 20:17:55.927 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:17:55.925984', 'temperature': 142.2}
+2025-01-31 20:18:01.127 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:01.057988', 'temperature': 142.0}
+2025-01-31 20:18:06.143 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:06.131017', 'temperature': 142.2, 'historical_fact': 'BBQ competitions go way back – The first recorded BBQ competition in the U.S. took place in the early 20th century, but BBQ cook-offs gained national popularity in the 1980s with the rise of the Kansas City Barbeque Society (KCBS).'}
+2025-01-31 20:18:11.150 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:11.147988', 'temperature': 142.0}
+2025-01-31 20:18:16.229 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:16.194986', 'temperature': 142.2}
+2025-01-31 20:18:21.250 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:21.246180', 'temperature': 142.0}
+2025-01-31 20:18:26.273 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:26.267076', 'temperature': 142.2}
+2025-01-31 20:18:31.283 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:31.282833', 'temperature': 142.0}
+2025-01-31 20:18:36.297 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:36.292056', 'temperature': 142.2}
+2025-01-31 20:18:41.354 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:41.321999', 'temperature': 142.0}
+2025-01-31 20:18:46.363 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:46.362923', 'temperature': 142.2}
+2025-01-31 20:18:51.368 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:51.367009', 'temperature': 142.0}
+2025-01-31 20:18:56.395 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:18:56.391166', 'temperature': 142.0, 'historical_fact': "Barbecue was used as a political tool – In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}
+2025-01-31 20:19:01.407 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:01.405726', 'temperature': 170.0}
+2025-01-31 20:19:06.414 | INFO     | __main__:generate_messages:111 - Opening data file in read mode: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\smoker_temps.csv
+2025-01-31 20:19:06.439 | INFO     | __main__:generate_messages:113 - Reading data from file: C:\Users\18165\Documents\44671_Streaming\buzzline-03-valenti\data\smoker_temps.csv
+2025-01-31 20:19:06.446 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:06.444666', 'temperature': 69.4}
+2025-01-31 20:19:11.467 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:11.462790', 'temperature': 70.4}
+2025-01-31 20:19:16.482 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:16.481031', 'temperature': 70.8}
+2025-01-31 20:19:21.484 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:21.483913', 'temperature': 71.2}
+2025-01-31 20:19:26.536 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:26.509936', 'temperature': 71.6}
+2025-01-31 20:19:31.540 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:31.539031', 'temperature': 72.0}
+2025-01-31 20:19:36.543 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:36.542034', 'temperature': 72.4}
+2025-01-31 20:19:41.604 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:41.568034', 'temperature': 72.8}
+2025-01-31 20:19:46.641 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:46.639278', 'temperature': 73.2, 'historical_fact': 'The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.'}
+2025-01-31 20:19:51.647 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:51.643195', 'temperature': 73.6}
+2025-01-31 20:19:56.653 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:19:56.649941', 'temperature': 74.0}
+2025-01-31 20:20:01.659 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:01.656729', 'temperature': 74.4}
+2025-01-31 20:20:06.666 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:06.662710', 'temperature': 74.8}
+2025-01-31 20:20:11.789 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:11.709527', 'temperature': 75.2}
+2025-01-31 20:20:16.796 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:16.793591', 'temperature': 75.6}
+2025-01-31 20:20:21.801 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:21.799272', 'temperature': 76.0}
+2025-01-31 20:20:26.904 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:26.844867', 'temperature': 76.4}
+2025-01-31 20:20:32.005 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:31.998317', 'temperature': 76.8}
+2025-01-31 20:20:37.020 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:37.014354', 'temperature': 77.2, 'historical_fact': "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style."}
+2025-01-31 20:20:42.055 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:42.035043', 'temperature': 77.6}
+2025-01-31 20:20:47.068 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:47.067504', 'temperature': 78.0}
+2025-01-31 20:20:52.072 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:52.070805', 'temperature': 78.4}
+2025-01-31 20:20:57.081 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:20:57.076520', 'temperature': 78.8}
+2025-01-31 20:21:02.087 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:21:02.085523', 'temperature': 79.2}
+2025-01-31 20:21:07.093 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:21:07.089600', 'temperature': 79.6}
+2025-01-31 20:21:12.256 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:21:12.163924', 'temperature': 80.0}
+2025-01-31 20:21:17.259 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:21:17.258858', 'temperature': 80.4}

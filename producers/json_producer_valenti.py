@@ -1,5 +1,5 @@
 """
-json_producer_case.py
+json_producer_valenti.py
 
 Stream JSON data to a Kafka topic.
 
@@ -43,20 +43,17 @@ load_dotenv()
 # Getter Functions for .env Variables
 #####################################
 
-
 def get_kafka_topic() -> str:
     """Fetch Kafka topic from environment or use default."""
     topic = os.getenv("BUZZ_TOPIC", "unknown_topic")
     logger.info(f"Kafka topic: {topic}")
     return topic
 
-
 def get_message_interval() -> int:
     """Fetch message interval from environment or use default."""
     interval = int(os.getenv("BUZZ_INTERVAL_SECONDS", 1))
     logger.info(f"Message interval: {interval} seconds")
     return interval
-
 
 #####################################
 # Set up Paths
@@ -78,7 +75,6 @@ logger.info(f"Data file: {DATA_FILE}")
 #####################################
 # Message Generator
 #####################################
-
 
 def generate_messages(file_path: pathlib.Path):
     """
@@ -118,11 +114,31 @@ def generate_messages(file_path: pathlib.Path):
             logger.error(f"Unexpected error in message generation: {e}")
             sys.exit(3)
 
+#####################################
+# Add Counter for Catchphrases
+#####################################
+
+# Initialize a dictionary to store character counts
+catchphrase_count = {}
+
+def update_catchphrase_count(author: str):
+    """
+    Update the count for each author (Simpsons character).
+
+    Args:
+        author (str): The name of the author (Simpsons character).
+    """
+    if author in catchphrase_count:
+        catchphrase_count[author] += 1
+    else:
+        catchphrase_count[author] = 1
+
+    # Log the current count
+    logger.info(f"Current catchphrase count: {catchphrase_count}")
 
 #####################################
 # Main Function
 #####################################
-
 
 def main():
     """
@@ -165,6 +181,10 @@ def main():
     logger.info(f"Starting message production to topic '{topic}'...")
     try:
         for message_dict in generate_messages(DATA_FILE):
+            # Extract the author and update catchphrase count
+            author = message_dict.get("author", "unknown")
+            update_catchphrase_count(author)
+
             # Send message directly as a dictionary (producer handles serialization)
             producer.send(topic, value=message_dict)
             logger.info(f"Sent message to topic '{topic}': {message_dict}")
@@ -178,7 +198,6 @@ def main():
         logger.info("Kafka producer closed.")
 
     logger.info("END producer.")
-
 
 #####################################
 # Conditional Execution
