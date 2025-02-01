@@ -1330,3 +1330,53 @@
 2025-01-31 18:57:22.666 | ERROR    | __main__:process_message:128 - Error processing message '{"timestamp": "2025-02-01T00:43:27.291863", "temperature": 75.6}': unsupported operand type(s) for -: 'float' and 'NoneType'
 2025-01-31 18:59:09.401 | WARNING  | __main__:main:159 - Consumer interrupted by user.
 2025-01-31 18:59:09.623 | INFO     | __main__:main:164 - Kafka consumer for topic 'smoker_csv' closed.
+2025-01-31 19:01:36.594 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 19:01:36.625 | INFO     | __main__:main:148 - START consumer.
+2025-01-31 19:01:36.630 | INFO     | __main__:get_kafka_topic:42 - Kafka topic: smoker_csv
+2025-01-31 19:01:36.639 | INFO     | __main__:get_kafka_consumer_group_id:48 - Kafka consumer group id: smoker_group
+2025-01-31 19:01:36.652 | INFO     | __main__:get_rolling_window_size:60 - Rolling window size: 10
+2025-01-31 19:01:36.655 | INFO     | __main__:main:154 - Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-01-31 19:01:36.658 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 19:01:36.659 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-01-31 19:01:36.844 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 19:01:36.845 | INFO     | __main__:main:163 - Polling messages from topic 'smoker_csv'...
+2025-01-31 19:05:43.212 | WARNING  | __main__:main:170 - Consumer interrupted by user.
+2025-01-31 19:05:43.222 | INFO     | __main__:main:175 - Kafka consumer for topic 'smoker_csv' closed.
+2025-01-31 19:05:48.742 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 19:05:48.752 | INFO     | __main__:main:148 - START consumer.
+2025-01-31 19:05:48.753 | INFO     | __main__:get_kafka_topic:42 - Kafka topic: smoker_csv
+2025-01-31 19:05:48.755 | INFO     | __main__:get_kafka_consumer_group_id:48 - Kafka consumer group id: smoker_group
+2025-01-31 19:05:48.756 | INFO     | __main__:get_rolling_window_size:60 - Rolling window size: 10
+2025-01-31 19:05:48.757 | INFO     | __main__:main:154 - Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-01-31 19:05:48.758 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 19:05:48.762 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-01-31 19:05:48.898 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 19:05:48.899 | INFO     | __main__:main:163 - Polling messages from topic 'smoker_csv'...
+2025-01-31 19:06:17.573 | WARNING  | __main__:main:170 - Consumer interrupted by user.
+2025-01-31 19:06:17.583 | INFO     | __main__:main:175 - Kafka consumer for topic 'smoker_csv' closed.
+2025-01-31 19:07:02.019 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 19:07:02.029 | INFO     | __main__:main:136 - START consumer.
+2025-01-31 19:07:02.030 | INFO     | __main__:get_kafka_topic:42 - Kafka topic: smoker_csv
+2025-01-31 19:07:02.031 | INFO     | __main__:get_kafka_consumer_group_id:48 - Kafka consumer group id: smoker_group
+2025-01-31 19:07:02.032 | INFO     | __main__:get_rolling_window_size:60 - Rolling window size: 10
+2025-01-31 19:07:02.032 | INFO     | __main__:main:142 - Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-01-31 19:07:02.033 | INFO     | __main__:main:143 - Rolling window size: 10
+2025-01-31 19:07:02.033 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 19:07:02.034 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-01-31 19:07:02.167 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 19:07:02.168 | INFO     | __main__:main:152 - Polling messages from topic 'smoker_csv'...
+2025-01-31 19:17:25.638 | WARNING  | __main__:main:159 - Consumer interrupted by user.
+2025-01-31 19:17:25.754 | INFO     | __main__:main:164 - Kafka consumer for topic 'smoker_csv' closed.
+2025-01-31 19:17:29.280 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-31 19:17:29.303 | INFO     | __main__:main:143 - START consumer.
+2025-01-31 19:17:29.304 | INFO     | __main__:get_kafka_topic:42 - Kafka topic: smoker_csv
+2025-01-31 19:17:29.305 | INFO     | __main__:get_kafka_consumer_group_id:48 - Kafka consumer group id: smoker_group
+2025-01-31 19:17:29.306 | INFO     | __main__:get_rolling_window_size:60 - Rolling window size: 10
+2025-01-31 19:17:29.307 | INFO     | __main__:main:149 - Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-01-31 19:17:29.308 | INFO     | __main__:main:150 - Rolling window size: 10
+2025-01-31 19:17:29.309 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-31 19:17:29.310 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-01-31 19:17:29.452 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-31 19:17:29.453 | INFO     | __main__:main:159 - Polling messages from topic 'smoker_csv'...
+2025-01-31 19:51:11.867 | WARNING  | __main__:main:166 - Consumer interrupted by user.
+2025-01-31 19:51:11.895 | INFO     | __main__:main:171 - Kafka consumer for topic 'smoker_csv' closed.

@@ -1,5 +1,5 @@
 """
-csv_consumer_joseph.py
+csv_consumer_case.py
 
 Consume json messages from a Kafka topic and process them.
 
@@ -70,6 +70,7 @@ def get_temperature_change_threshold() -> float:
 # Define functions for stall detection and alerting on significant temperature changes
 #####################################
 
+
 def detect_stall(rolling_window_deque: deque) -> bool:
     """Detect a temperature stall based on the rolling window."""
     WINDOW_SIZE: int = get_rolling_window_size()
@@ -82,34 +83,13 @@ def detect_stall(rolling_window_deque: deque) -> bool:
     logger.debug(f"Temperature range: {temp_range}°F. Stalled: {is_stalled}")
     return is_stalled
 
-
-The error you're seeing, unsupported operand type(s) for -: 'float' and 'NoneType', is occurring because the variable previous_temperature is None when the calculation for the temperature difference is attempted. Specifically, in the check_for_temperature_change function, this happens when the code tries to subtract None from a float (i.e., the current temperature).
-
-Why is this happening?
-The previous_temperature variable is initialized as None, but it seems that the first message processed is trying to compare a None value (initial state) with the current temperature.
-The check_for_temperature_change function should handle this case where previous_temperature is None.
-How to fix it?
-We need to add a check in the check_for_temperature_change function to ensure that the comparison only happens when previous_temperature is not None. If it is None, we should simply store the first temperature without comparing it.
-
-Updated Code with Fix
-Here's how you can modify the check_for_temperature_change function to avoid this error:
-
-python
-Copy
-Edit
-def check_for_temperature_change(temperature: float, previous_temperature: float) -> float:
+def check_for_temperature_change(temperature: float, previous_temperature: float) -> None:
     """Check if the temperature change exceeds the threshold."""
-    if previous_temperature is None:
-        # If it's the first reading, just return the temperature and don't compare
-        return temperature
-
     temp_change_threshold = get_temperature_change_threshold()
     change = abs(temperature - previous_temperature)
-
     if change > temp_change_threshold:
         logger.warning(f"Significant temperature change detected: {change}°F from {previous_temperature}°F to {temperature}°F.")
-
-    # Return the current temperature to update the previous_temperature for the next iteration
+        # You can also add logic here for more actions (e.g., trigger alerts, notifications)
     return temperature
 
 #####################################
@@ -132,6 +112,12 @@ def process_message(message: str, rolling_window: deque, window_size: int, previ
         if temperature is None or timestamp is None:
             logger.error(f"Invalid message format: {message}")
             return
+
+        # Alert if temperature is below 70°F or above 160°F
+        if temperature < 70:
+            logger.warning(f"ALERT: Temperature below 70°F! Current temperature: {temperature}°F at {timestamp}")
+        elif temperature > 160:
+            logger.warning(f"ALERT: Temperature above 160°F! Current temperature: {temperature}°F at {timestamp}")
 
         # Check for significant temperature change
         previous_temperature = check_for_temperature_change(temperature, previous_temperature)
