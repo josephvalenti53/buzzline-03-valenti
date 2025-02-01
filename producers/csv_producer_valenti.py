@@ -80,10 +80,10 @@ logger.info(f"Data file: {DATA_FILE}")
 
 # Historical Facts Lists
 historical_bbq_facts = [
-    "The word "barbecue" comes from the Caribbean – The term originates from the Taíno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame.",
+    "The word 'barbecue' comes from the Caribbean – The term originates from the Taíno word barbacoa, which referred to a wooden structure used for cooking meat over an open flame.",
     "George Washington loved BBQ – The first U.S. president was known to host barbecues at his Mount Vernon estate. His diary even mentions attending a "barbicue" in 1769.",
     "Texas BBQ dates back to the 1800s – German and Czech immigrants brought their smoking techniques to Texas, blending them with local beef culture to create what we now call Texas BBQ.",
-    "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the "father of Kansas City BBQ," started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style.",
+    "Kansas City BBQ was influenced by a street vendor – Henry Perry, known as the 'father of Kansas City BBQ,' started selling slow-smoked meats from a cart in the early 1900s, helping define the city's iconic BBQ style.",
     "Memphis BBQ got famous through river trade – In the 19th century, Memphis became a BBQ hub thanks to its location along the Mississippi River, where pork was plentiful and slow-cooked with a dry rub.",
     "The oldest BBQ joint in the U.S. is still running – Southside Market & Barbecue in Elgin, Texas, was established in 1882 and is still serving up legendary smoked meats.",
     "North Carolina BBQ has a Civil War connection – The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods.",
