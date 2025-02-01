@@ -2187,3 +2187,20 @@
 2025-01-31 20:28:33.390 | WARNING  | __main__:main:193 - Producer interrupted by user.
 2025-01-31 20:28:33.393 | INFO     | __main__:main:198 - Kafka producer closed.
 2025-01-31 20:28:33.395 | INFO     | __main__:main:200 - END producer.
+2025-01-31 20:28:34.930 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:28:34.929439', 'temperature': 115.2}
+2025-01-31 20:28:39.937 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:28:39.933208', 'temperature': 115.6}
+2025-01-31 20:28:44.943 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:28:44.942003', 'temperature': 116.0}
+2025-01-31 20:28:49.946 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:28:49.945922', 'temperature': 116.4}
+2025-01-31 20:28:54.949 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:28:54.948093', 'temperature': 116.8}
+2025-01-31 20:28:59.954 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:28:59.951347', 'temperature': 117.2, 'historical_fact': 'North Carolina BBQ has a Civil War connection – The vinegar-based BBQ sauce commonly found in North Carolina dates back to the Civil War era when preservation was key to keeping meat edible for longer periods.'}
+2025-01-31 20:29:04.958 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:04.957286', 'temperature': 117.6}
+2025-01-31 20:29:09.962 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:09.961736', 'temperature': 118.0}
+2025-01-31 20:29:15.022 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:15.000435', 'temperature': 118.4}
+2025-01-31 20:29:20.030 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:20.027040', 'temperature': 118.8}
+2025-01-31 20:29:25.092 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:25.087704', 'temperature': 119.2}
+2025-01-31 20:29:30.100 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:30.096960', 'temperature': 119.6}
+2025-01-31 20:29:35.506 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:35.425794', 'temperature': 120.0}
+2025-01-31 20:29:40.592 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:40.589700', 'temperature': 120.4}
+2025-01-31 20:29:45.599 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:45.595757', 'temperature': 120.8}
+2025-01-31 20:29:50.604 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:50.602695', 'temperature': 121.2, 'historical_fact': "Barbecue was used as a political tool – In the 1800s, American politicians hosted 'BBQ rallies,' feeding people smoked meat to gain votes and build political support."}
+2025-01-31 20:29:55.613 | INFO     | __main__:main:196 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-01T02:29:55.611068', 'temperature': 121.6}
